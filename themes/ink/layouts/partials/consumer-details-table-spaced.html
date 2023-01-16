@@ -1,0 +1,79 @@
+<div class="">
+    <table class="title-table spaced-table bordered-table padding-0 {{ if .extendCol1 }}address-table{{ end }} {{if .break }}break{{ end }}" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+
+        <tbody>
+            <tr>
+                <td class="padding-0">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="float-symbol"></th>
+                                {{ range .tableHead }}
+                                    <th >{{ .title }}</th>
+                                {{ end }}
+                            </tr>
+                        </thead>
+                    <!-- </table>
+                    <table> -->
+                        <tbody>
+                        {{ range .tableBody }}
+                        <tr>
+                            <td class="float-symbol">
+                                {{ if .eTag }}
+                                        <span>(e)</span>
+                                {{ end }}
+                            </td>
+                            {{ range $elem_index, $elem_val := .content }}
+                            <td>
+                                {{ $elem_val }}
+                            </td>
+                            {{ end }}
+                        </tr>
+                        {{ end }}
+                        </tbody>
+                    <!-- </table> -->
+                    {{ if .remark | and .date }}
+                    <!-- <table> -->
+                        <tfoot>
+                            <tr>
+                                <td class="padding-0">
+                                    <table class="white-row">
+                                        <tr>
+                                            <td class="foot-alert-info" colspan="">
+                                                <img src="{{ "images/static-images/alert-red.svg" | relURL }}">
+                                                <span>INFORMATION UNDER DISPUTE</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="white-row">
+                                        <tr>
+                                            <td style="width: 690px;">
+                                                <span class="td-title">CIBIL REMARKS</span>
+                                                <span class="colon">:</span>
+                                                <span class="td-desc">{{ .remark }}</span>
+                                            </td>
+                                            <td colspan="">
+                                                <span class="td-title">DAte Entered</span>
+                                                <span class="colon">:</span>
+                                                <span class="td-desc">{{ .date }}</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tfoot>
+                        {{ else }}
+                        <tfoot>
+                            <tr>
+                                {{ $arrayFirstElement := index .tableBody 0 }}
+                                <td class="empty-td" colspan="{{ add (len $arrayFirstElement.content) 1 }}"></td>
+                            </tr>
+                        </tfoot>
+                        {{ end }}
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>

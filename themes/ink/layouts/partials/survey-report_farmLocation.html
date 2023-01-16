@@ -1,0 +1,33 @@
+{{range .surveyReports}}
+    {{range .farmLocations}}
+    <table class="no-break">
+        <tr>
+            <td>
+                {{if .hideInfo}}
+                    {{ partial "table-title" (dict "tableTitle" .table_title "className" "medium") }}
+                {{else}}
+                    {{ partial "table-title" (dict "tableTitle" .table_title "className" "medium" "tableInfo" "Geospatial image of the location of survey details with geographical boudary to verify the land details") }}
+                {{end}}
+                <table class="bordered-table padding-0 farmLocations-table break bottom-border" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <thead>
+                        <tr>
+                            {{range .table_head}}
+                            <th class="border-bottom border-right td-title">{{.title}} {{ if .info }} {{ partial "info-icon" (dict "message" .info "className" "small")}} {{ end }}</th>
+                            {{end}}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .table_body}}
+                        <tr>
+                            {{range .row}}
+                            <td class="td-desc border-right">{{.content | safeHTML }}{{ if .sub_content }}<span class="note-text">{{.sub_content}}</span>{{end}}</td>
+                            {{end}}
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    {{end}}
+{{end}}

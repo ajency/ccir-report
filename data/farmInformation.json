@@ -1,0 +1,82 @@
+{
+  "table_body" : [
+    {
+      "content":[
+        "Haryana",
+        "Faridabad",
+        "Ballabgarh",
+        "Dyalpur",
+        "100",
+        "20",
+        "10"
+      ]
+    },
+    {
+      "content":[
+        "Haryana",
+        "Faridabad",
+        "Ballabgarh",
+        "Dyalpur",
+        "100",
+        "20",
+        "18"
+      ]
+    },
+    {
+      "content":[
+        "Haryana",
+        "Faridabad",
+        "Ballabgarh",
+        "Dyalpur",
+        "100",
+        "20",
+        "20"
+      ]
+    },
+    {
+      "content":[
+        "Haryana",
+        "Faridabad",
+        "Ballabgarh",
+        "Dyalpur",
+        "100",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "content":[
+        "Haryana",
+        "Faridabad",
+        "Ballabgarh",
+        "Dyalpur",
+        "100",
+        "20",
+        "22"
+      ]
+    }
+  ],
+  "table_head":[
+    {
+      "title": "STATE"
+    },
+    {
+      "title": "DISTRICT"
+    },
+    {
+      "title": "TEHSIL"
+    },
+    {
+      "title": "VILLAGE"
+    },
+    {
+      "title": "KHEWAT"
+    },
+    {
+      "title": "MURABBA"
+    },
+    {
+      "title": "KHARSA"
+    }
+  ]
+}

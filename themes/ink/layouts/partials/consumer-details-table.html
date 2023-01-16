@@ -1,0 +1,87 @@
+{{if .tableHead | or .tableBody }}
+<div>
+    <table class="title-table bordered-table padding-0 {{if .tableHead }}top-border{{ end }} {{if .tableBody }}horizontal-border{{ end }} {{if .break }}break{{ end }} {{ if .remark | and .date }} {{ else }} bottom-border {{end}}" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+        
+        <tbody>
+            <tr class="padding-0">
+                <td>
+                    {{ if .tableHead}}
+                    <table class="white-row">
+                        <thead class="border-0">
+                            <tr>
+                                <th colspan="2">
+                                    <span class="td-title">CONSUMER NAME</span>
+                                    <span class="colon">:</span>
+                                    <span class="td-desc">{{ .tableHead.name }}</span>
+                                </th>
+                                <th style="padding-left: 0;">
+                                    <span class="td-title">D.O.B</span>
+                                    <span class="colon">:</span>
+                                    <span class="td-desc">{{ .tableHead.dob }}</span>
+                                </th>
+                                <th>
+                                    <span class="td-title">GENDER</span>
+                                    <span class="colon">:</span>
+                                    <span class="td-desc">{{ .tableHead.gender }}</span>
+                                </th>
+                                <th style="width: 330px;">
+                                    <span class="td-title">CREDITVISION<sup>®</sup> SCORE</span>
+                                    <span class="colon">:</span>
+                                    <span class="td-desc">{{ .tableHead.score }}</span>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                    {{ end }}
+                    {{ if .tableBody}}
+                    <table>
+                        {{ range .tableBody }}
+                        <tr>
+                            {{ range $elem_index, $elem_val := .content }}
+                            <td>{{ $elem_val }}</td>
+                            {{ end }}
+                        </tr>
+                        {{ end }}
+                    </table>
+                    {{ end }}
+                    {{ if .remark | and .date }}
+                    <table>
+                        <tfoot>
+                            <tr>
+                                <td class="padding-0">
+                                    <table class="white-row">
+                                        <tr>
+                                            <td class="foot-alert-info" colspan="">
+                                                <img src="{{ "images/static-images/alert-red.svg" | relURL }}">
+                                                <span>INFORMATION UNDER DISPUTE</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="white-row">
+                                        <tr>
+                                            <td style="width: 690px;">
+                                                <span class="td-title">CIBIL REMARKS</span>
+                                                <span class="colon">:</span>
+                                                <span class="td-desc">{{ .remark }}</span>
+                                            </td>
+                                            <td colspan="">
+                                                <span class="td-title">DAte Entered</span>
+                                                <span class="colon">:</span>
+                                                <span class="td-desc">{{ .date }}</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    {{ end }}
+                </td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>
+{{else}}
+{{partial "empty-state" (dict "message" .message)}}
+{{end}}

@@ -1,0 +1,20 @@
+{{if .text | or .imageURL}}
+<table class="default-table {{.className}}" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+    align="center">
+    <thead>
+        <tr>
+            <th>Survey No. {{ .surveyNo }}  {{ if .infoMessage }} {{ partial "info-icon" (dict "message" .infoMessage ) }} {{ end }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                {{ if .text }}<p class="hindi short-length">{{ .text }}</p> {{ end }}
+                {{ if .imageURL }}<img src ="{{ .imageURL}}" >{{ end }}
+            </td>
+        </tr>
+    </tbody>
+</table>
+{{else}}
+{{partial "empty-state" (dict "message" "No Consumer Farm Ownership available.")}}
+{{end}}

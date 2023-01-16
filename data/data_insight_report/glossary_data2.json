@@ -1,0 +1,36 @@
+{
+    "table_head": [
+        {
+            "title": "REPORT SECTION"
+        },
+        {
+            "title": "KEY TERM / CODE"
+        },
+        {
+            "title": "DEscription"
+        }
+    ],
+    "table_body": [
+        {
+            "content": [
+                "Consumer Account Details :",
+                "Day Past Due/Asset Classification",
+                "<span>Start date: Beginning of the payment history\n</span><span>End Date: End of the payment history\n</span><span>000: Payment is made on the due date\n</span><span>001-900: Payment is missed by number of days from the due date\n</span><span>STD: Payments being made within 90 days\n</span><span>SMA: Special account created for reporting Standard Accounts moving toward Sub-Standard\n</span><span>SUB: Payments being made after 90 days\n</span><span>DBT : The account has remained Sub-Standard for 12 months\n</span><span>LSS : The account where loss has been identified and remains uncollectable\n</span><span>XXX : Data not reported by Institution</span>"
+            ]
+        },
+        {
+            "content": [
+                "Consumer Account Details :",
+                "Information under dispute",
+                "Consumer has raised grievance request regarding issue in correctness of the data reported by Financial Institution"
+            ]
+        },
+        {
+            "content": [
+                "Enquiry Details :",
+                "Not Disclosed",
+                "Enquiry made with other Members"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{{range .surveyReports}}
+    {{range .adjacentLandDetails}}
+    <table class="no-break">
+        <tr>
+            <td>
+            {{if .hideInfo}}
+            {{ partial "table-title" (dict "tableTitle" .table_title "className" "medium") }}
+            {{else}}
+                {{ partial "table-title" (dict "tableTitle" .table_title "className" "medium" "tableInfo" "'CHATURDISHA' information for precise land verification") }}
+            {{end}}
+                <table class="bordered-table padding-0 landDetails-table break" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="left">
+                    <thead>
+                        <tr>
+                            {{range .table_head}}
+                            <th class="border-bottom td-title">{{.title}} {{ if .info }} {{ partial "info-icon" (dict "message" .info "className" "small")}} {{ end }}</th>
+                            {{end}}
+                        </tr>
+                    </thead>
+                    <tbody class="striped-table-from1">
+                        {{range $index_no, $value:=.table_body}}
+                        <tr>
+                            <td class="td-desc">{{add $index_no 1}}</td>
+                            {{range .content}}
+                                <td class="td-desc">{{.}}</td>
+                            {{end}}
+                        </tr>
+                        {{end}}
+                    </tbody>
+                    <tfoot>
+                        <tr><td class="empty-td" colspan="{{ (len .table_head) }}"></td></tr>
+                    </tfoot>
+                </table>
+            </td>
+        </tr>
+    </table>
+    {{end}}
+{{end}}

@@ -1,0 +1,31 @@
+<table class="bordered-table summary-table bottom-border" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+    <thead>
+        <tr>
+            {{ range .tableHead }}<th>{{.title}}</th>{{ end }}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            {{ range .tableBody }}
+            <td>
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tr>
+                        <td>
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+                                {{ range .columnData }}
+                                <tr>
+                                    <td class="summary-title">{{ range .content }}{{.name}}{{ end }}</td>
+                                    <td class="colon">:</td>
+                                    <td class="summary-desc">{{ range .content }}{{.value}}{{ end }}</td>
+                                </tr>
+                                {{end}}
+                            </table>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </td>
+            {{ end }}
+        </tr>
+    </tbody>
+</table>

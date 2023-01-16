@@ -1,0 +1,13 @@
+<!-- table title | start -->
+<table id="table-title" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tr>
+        <td>
+            <h1 class="table-title">
+                {{ .tableTitle }}{{ if .info }}{{partial "info-icon" (dict "message" .info "className" "up1")}}{{ end }}
+                {{ if .subTitle }} <span class="table-subtitle">{{ .subTitle }}</span> {{ end }}
+            </h1>
+        </td>
+        <td class="id_details"><span class="td-title">{{ .property }}</span><span class="colon">:</span>{{ .value }}</td>
+    </tr>
+</table>
+<!-- table title | end -->

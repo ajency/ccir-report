@@ -1,0 +1,32 @@
+{
+    "table_head": [
+        {
+            "title": "ACCOUNT TYPE <span>(Date Reported)</span>"
+        },
+        {
+            "title": "OCCUPATION CODE"
+        },
+        {
+            "title": "Income"
+        },
+        {
+            "title": "NET/Gross Income Indicator"
+        },
+        {
+            "title": "Monthly/Annual Income indicator"
+        }
+    ],
+    "table_body": [
+        {
+            "content": [
+                "Credit Card <span>(30/04/2022)</span>",
+                "Not available",
+                "₹ 1,00,000",
+                "Gross Income",
+                "Monthly"
+            ]
+        }
+    ],
+    "remark": "Net/Gross Income Indicator in Dispute",
+    "date": "08/02/2019"
+}

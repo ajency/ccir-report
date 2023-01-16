@@ -1,0 +1,9 @@
+<div class="table-section">
+    {{ partial "table-title.html" (dict "tableTitle" "CONSUMER FARM SUMMARY") }}
+    
+    {{ range .tableData }}
+        {{ partial "farm-survey-table.html" (dict "surveyNo" .surveyNo "address" .address "location" .location "area" .area "crops" .crops "irrigationCondition" .irrigationCondition  "date" .date "croppingIntensity" .croppingIntensity "performance" .performance) }}
+    {{ end }}
+
+    {{ partial "ownership-charge-text.html"}}
+</div>

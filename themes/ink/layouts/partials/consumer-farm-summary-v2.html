@@ -1,0 +1,47 @@
+{{if .comsumerFarmSummary}}
+{{range .comsumerFarmSummary}}
+<table class="bordered-table padding-0 consumer-farm-sumamry-v2 border-bottom" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+    <thead>
+        <tr>
+            {{range .table_head}}
+            <th class="border-right border-bottom">{{.title}}{{if gt (len .subtitle) 0}}<span class="note-text">{{.subtitle}}</span>{{end}} {{if gt (len .info) 0}} {{partial "info-icon" (dict "message" .info "className" "small" )}} {{end}}</th>
+            {{end}}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            {{range .table_body}}
+            <td class="border-right details">
+                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tr>
+                        {{range .content}}
+                        <td>
+                            <table class="details-rows" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
+                                {{range .row}}
+                                <tr>
+                                    {{if gt (len .title) 0}}
+                                    <td class="td-title">{{.title}} {{if gt (len .info) 0}} {{ partial "info-icon" (dict "message" .info "className" "small bottom tight")}} {{end}} </td>
+                                    <td class="colon">:</td>
+                                    {{end}}
+                                    <td class="td-desc">{{.desc}}</td>
+                                </tr>
+                                {{end}}
+                            </table>
+                        </td>
+                        {{if .image}}
+                        <td class="icon">
+                            <img src="{{ .image | relURL}}">
+                        </td>
+                        {{end}}
+                        {{end}}
+                    </tr>
+                </table>
+            </td>
+            {{end}}
+        </tr>
+    </tbody>
+</table>
+{{end}}
+{{else}}
+{{partial "empty-state" (dict "message" "No Consumer Farm Summary available.")}}
+{{end}}
