@@ -2385,7 +2385,7 @@ $grey5 : #707070;
     line-height: 24px;
     color: #2C2C2C;
 
-    .title{
+    .title {
       text-align: right;
     }
 
@@ -2406,5 +2406,20 @@ $grey5 : #707070;
         }
       }
     }
+  }
+}
+
+.foot-note {
+  border-bottom: 2px solid #707070;
+
+  span {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2C2C;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 20px;
   }
 }
