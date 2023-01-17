@@ -13,4 +13,6 @@
 {{ partial "table-title" (dict "tableTitle" "ENQUIRY INPUT INFORMATION") }}
 {{partial "ccir/table-style1" (dict "tableData" .Site.Data.ccir.enquiry_input_info )}}
 
+{{partial "ccir/request-error" (dict "message" "YOUR REQUEST HAS BEEN REJECTED BY THE SERVER. PLEASE MAKE THE APPROPRIATE CHANGE AND RE-SUBMIT THE REQUEST OR CONTACT THE SYSTEM ADMINISTRATOR.")}}
+
 {{ end }}
