@@ -1,0 +1,70 @@
+[
+  {
+    "creditvison_score": [
+        {
+            "border_bottom": true,
+            "graph_title": "CREDITVISION<sup>®</sup><br>Score",
+            "graph_subtitle": "Ranges from:<br>300 (high risk) to 900 (low risk)",
+            "graph_image": "images/dynamic-images/score-graph-720.png",
+            "score_factors":[
+                "1. Credit card balances are high in proportion to high credit amounts",
+                "2. Low proportion of satisfactory trades",
+                "3. One or more trades with suit-filed status in the past 24 months",
+                "4. Presence of delinquency",
+                "5. Low average trade age"
+            ]
+        }
+    ],
+    "ntc_score": [
+        {
+            "border_bottom": true,
+            "graph_title": "NTC<br>Score",
+            "graph_subtitle": "Ranges from:<br>100 (high risk) to 200 (low risk)",
+            "graph_image": "images/dynamic-images/score-graph-1.png",
+            "score_factors":[
+                "Insufficient history to score"
+            ]
+        }
+    ],
+    "microfinance_score": [
+        {
+            "border_bottom": true,
+            "graph_title": "MICROFINANCE<sup>®</sup><br>Score",
+            "graph_subtitle": "Ranges from:<br>300 (high risk) to 900 (low risk)",
+            "graph_image": "images/dynamic-images/score-graph-810.png",
+            "score_factors":[
+                "1. Credit card balances are high in proportion to high credit amounts",
+                "2. Low proportion of satisfactory trades",
+                "3. One or more trades with suit-filed status in the past 24 months",
+                "4. Presence of delinquency",
+                "5. Low average trade age"
+            ]
+        }
+    ],
+    "personal_score": [
+        {
+            "border_bottom": true,
+            "graph_title": "PERSONAL LOAN<br>Score",
+            "graph_subtitle": "Ranges from:<br>300 (high risk) to 900 (low risk)",
+            "graph_image": "images/dynamic-images/score-graph-680.png",
+            "score_factors":[
+                "1. Credit card balances are high in proportion to high credit amounts",
+                "2. Low proportion of satisfactory trades",
+                "3. One or more trades with suit-filed status in the past 24 months",
+                "4. Presence of delinquency",
+                "5. Low average trade age"
+            ]
+        }
+    ],
+    "estimated_range": [
+        {
+            "border_bottom": false,
+            "graph_title": "ESTIMATED<br>INCOME BAND",
+            "graph_image": "images/dynamic-images/score-graph-7.png",
+            "estimated_range":[
+                "7 (1.5M - 1.8M)"
+            ]
+        }
+    ]
+  }
+]
