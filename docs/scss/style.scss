@@ -2344,15 +2344,20 @@ $grey5 : #707070;
   }
 }
 
-.request-error {
-  vertical-align: top;
+.border-top-bottom {
   border-top: 1px solid #ACACAC;
   border-bottom: 1px solid #ACACAC;
+}
+
+.request-error {
+  vertical-align: top;
   padding: 20px !important;
   padding-right: 98px !important;
-  td{
+
+  td {
     vertical-align: top;
   }
+
   .message {
     font-weight: 700;
     font-size: 20px;
@@ -2360,9 +2365,46 @@ $grey5 : #707070;
     letter-spacing: 0.02em;
     padding-left: 16px;
   }
-  .icon{
-    img{
+
+  .icon {
+    img {
       margin-top: 2px;
+    }
+  }
+}
+
+.padding-20 {
+  padding: 20px !important;
+}
+
+.checkboxes-table {
+  td {
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2C2C2C;
+
+    .title{
+      text-align: right;
+    }
+
+    .icon {
+      padding-left: 10px;
+      width: 34px;
+      padding-top: 6px;
+    }
+
+    &:not(:last-child) {
+      padding-right: 60px;
+    }
+
+    table {
+      td {
+        &:not(:last-child) {
+          padding-right: 0px;
+        }
+      }
     }
   }
 }

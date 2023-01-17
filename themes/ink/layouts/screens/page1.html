@@ -10,9 +10,12 @@
 
 {{ partial "ccir/horizontal-separator" }}
 
-{{ partial "table-title" (dict "tableTitle" "ENQUIRY INPUT INFORMATION") }}
-{{partial "ccir/table-style1" (dict "tableData" .Site.Data.ccir.enquiry_input_info )}}
+{{ partial "table-title" (dict "tableTitle" "ENQUIRY INPUT INFORMATION" "refNo" "5653AFG34") }}
+{{ partial "ccir/table-style1" (dict "tableData" .Site.Data.ccir.enquiry_input_info ) }}
 
-{{partial "ccir/request-error" (dict "message" "YOUR REQUEST HAS BEEN REJECTED BY THE SERVER. PLEASE MAKE THE APPROPRIATE CHANGE AND RE-SUBMIT THE REQUEST OR CONTACT THE SYSTEM ADMINISTRATOR.")}}
+{{ partial "ccir/request-error" (dict "message" "YOUR REQUEST HAS BEEN REJECTED BY THE SERVER. PLEASE MAKE THE APPROPRIATE CHANGE AND RE-SUBMIT THE REQUEST OR CONTACT THE SYSTEM ADMINISTRATOR.") }}
+
+{{ partial "table-title" (dict "tableTitle" "PRESENCE IN" ) }}
+{{ partial "ccir/checkboxes" (dict "checkboxesData" .Site.Data.ccir.checkboxes) }}
 
 {{ end }}

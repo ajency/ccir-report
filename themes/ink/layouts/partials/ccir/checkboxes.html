@@ -1,0 +1,24 @@
+{{ if .checkboxesData }}
+<table class="checkboxes-table bordered-table border-top-bottom padding-20">
+    {{range .checkboxesData}}
+    <tr>
+        {{range .row}}
+        <td style="{{if .width}}width:{{.width}} {{end}}">
+            <table>
+                <tr>
+                <td class="title">{{.title}}</td>
+                <td class="icon" >
+                    {{if eq .checked true}}
+                    <img src="{{ "images/static-images/checked.svg" | relURL }}">
+                    {{else if eq .checked false}}
+                        <img src="{{ "images/static-images/unchecked.svg" | relURL }}">
+                    {{end}}
+                </td>
+                </tr>
+            </table>
+        </td>
+        {{end}}
+    </tr>
+    {{end}}
+</table>
+{{end}}
