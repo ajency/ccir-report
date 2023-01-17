@@ -1,22 +1,24 @@
 <table class="site-header"  role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center">
     <tr>
-        <td style="width: 70%; border-bottom: 7px solid #FCD800; padding-bottom: 20px;" >
+        <td style="border-bottom: 7px solid #FCD800; padding-bottom: 20px;" >
             <table style="text-align: left;" class="header-left-side">
                 <tr>
-                    <td>
+                    <td style="padding-left: 0px;width: 40%;">
                         <span class="td-title">REPORT DATE & TIME</span> : <span class="td-desc">{{ .dateTime }}</span>
                     </td>
-                    <td>
+                    <td style="width: 6px; padding: 0px;">|</td>
+                    <td style="width: 33%;">
                         <span class="td-title">CONTROL NUMBER</span> : <span class="td-desc">{{ .controlNo }}</span>
                     </td>
-                    <td>
+                    <td style="width: 6px; padding: 0px;">|</td>
+                    <td style="padding-right: 0px;">
                         <span class="td-title">MEMBER ID</span> : <span class="td-desc">{{ .memberId }}</span>
                     </td>
                 </tr>
             </table>
         </td>
-        <td style="text-align: right; padding-left: 30px; position: relative;">
-            <img style="vertical-align: bottom; position: absolute; right: 0; width: 100%; padding-left: 34px; bottom: 0px; transform: translateY(-11%);" src="{{"images/static-images/cibil-satsure.svg" | relURL}}">
+        <td style="text-align: right; position: relative;width: 370px;">
+            <img style="padding-left: 43px;vertical-align: bottom; position: absolute; right: 0; width: 100%;bottom: 0px; transform: translateY(-11%);" src="{{"images/static-images/cibil-satsure.svg" | relURL}}">
         </td>
     </tr>
 </table>
