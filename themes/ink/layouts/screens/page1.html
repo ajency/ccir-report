@@ -1,3 +1,16 @@
 {{ define "main" }}
 
+{{ partial "ccir/report-title" (dict "report_title" "COMPREHENSIVE CREDIT INFORMATION REPORT") }}
+
+<table>
+    <tr>
+        <td class="font-36-bold">MOHANA PARAB</td>
+    </tr>
+</table>
+
+{{ partial "ccir/horizontal-separator" }}
+
+{{ partial "table-title" (dict "tableTitle" "ENQUIRY INPUT INFORMATION") }}
+{{partial "ccir/table-style1" (dict "tableData" .Site.Data.ccir.enquiry_input_info )}}
+
 {{ end }}

@@ -1,0 +1,42 @@
+{{ if .tableData }} {{ range .tableData }}
+<table class="report-table bordered-table report-table-style1 padding-0">
+  {{if .tHead}}
+  <thead>
+    <tr>
+      {{range .tHead}}
+      <th style="{{ if .width }}width:{{.width}}{{end}}">{{safeHTML .heading}}</th>
+      {{end}}
+    </tr>
+  </thead>
+  {{end}} {{if .tBody}}
+  <tbody>
+    <tr>
+      {{range .tBody}} {{if .tdData}}
+      <td>
+        <table>
+          {{range .tdData}}
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  {{range $title, $content:= . }}
+                  <td>
+                    <p class="title">{{$title}}</p>
+                    <p class="content">
+                      {{safeHTML $content}}
+                    </p>
+                  </td>
+                  {{end}}
+                </tr>
+              </table>
+            </td>
+          </tr>
+          {{end}}
+        </table>
+      </td>
+      {{end}} {{end}}
+    </tr>
+  </tbody>
+  {{end}}
+</table>
+{{ end }} {{ end }}

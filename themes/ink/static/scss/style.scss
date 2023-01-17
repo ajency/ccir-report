@@ -2163,12 +2163,156 @@ tfoot {
   }
 }
 
-@mixin font-22($fontWeight) {
-  font-size: 22px;
-  line-height: 44px;
+//colors
+
+$grey5 : #707070;
+
+.grey5{
+  color: $grey5;
+}
+
+//typography
+@mixin fontStyle($fontSize, $lineHeight, $fontWeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
   font-weight: $fontWeight;
 }
 
-.font-22{
-  @include font-22(700);
+.font-18 {
+  &-book{
+    @include fontStyle(18px, 24px, 400);
+  }
+  &-bold{
+    @include fontStyle(18px, 24px, 700);
+  }
+}
+.font-20 {
+  &-bold{
+    @include fontStyle(20px, 24px, 700);
+  }
+  &-regular{
+    @include fontStyle(20px, 24px, 600);
+  }
+}
+
+.font-22 {
+  &-bold{
+    @include fontStyle(22px, 44px, 700);
+  }
+}
+
+.font-36 {
+  &-bold{
+    @include fontStyle(36px, 50px, 700);
+  }
+}
+
+.text{
+  &-uppercase{
+    text-transform: uppercase;
+  }
+}
+
+.site-header {
+  margin-bottom: 60px;
+}
+
+.report-title {
+  color: #00A6CA;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+.horizontal-separator {
+  hr {
+    border-color: #006685;
+    margin: 30px 0;
+  }
+}
+
+#table-title{
+  margin-bottom: 10px;
+  .right-side{
+    width: 20%;
+  }
+}
+.ref-no {
+  @include fontStyle(16px, 24px, 700);
+  color: #2C2C2C;
+  margin: 0px;
+  .title{
+    color: #ACACAC;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+}
+.main-container .table-title {
+  margin-bottom: 0px;
+}
+.report-table{
+  border-bottom: 1px solid #acacac;
+  thead>tr:first-child>th:last-child {
+    border-top-right-radius: 7px;
+  }
+  thead>tr:first-child>th:first-child {
+    border-top-left-radius: 7px;
+  }
+  .title, .content{
+    margin: 0px;
+  }
+  .title{
+    @include fontStyle(14px, 24px, 700);
+    color: #00A6CA;
+    text-transform: uppercase;
+  }
+  .content{
+    @include fontStyle(18px, 24px, 600);
+    color: #2C2C2C;
+    b{
+      font-weight: 700;
+    }
+  }
+  .font-20-bold{
+    @include fontStyle(20px, 24px, 700);
+  }
+  .grey5{
+    letter-spacing: 0.02em;
+    margin-right: 10px;
+  }
+  &-style1{
+    thead{
+      th{
+        background: #F6F7FC;
+        @include fontStyle(18px, 24px, 700);
+        color: $grey5;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        padding: 10px 20px;
+        text-align: left;
+      }
+    }
+    td:not(:last-child), th:not(:last-child){
+      border-right: 1px solid #ACACAC;
+      table{
+        td:not(:last-child), th:not(:last-child){
+          border: none;
+        }
+      }
+    }
+    td{
+      vertical-align: top;
+      table{
+        padding: 7.5px 10px;
+        table{
+          padding: 0px;
+          td{
+            padding: 7.5px 10px;
+          }
+        }
+      }
+    }
+  }
 }

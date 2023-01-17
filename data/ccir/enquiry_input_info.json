@@ -1,0 +1,68 @@
+[
+  {
+    "tHead": [
+      {
+        "heading": "PERSONAL INFORMATION",
+        "width": "21%"
+      },
+      {
+        "heading": "IDENTIFICATION(S)",
+        "width": "27%"
+      },
+      {
+        "heading": "TELEPHONE(S)",
+        "width": "28%"
+      },
+      {
+        "heading": "ADDRESS(ES)"
+      }
+    ],
+    "tBody": [
+      {
+        "tdData": [
+          {
+            "name": "<b class='text-uppercase'>Mohana Parab</b>"
+          },
+          {
+            "DOB": "07/12/1964",
+            "GENDER": "Female"
+          }
+        ]
+      },
+      {
+        "tdData": [
+          {
+            "PAN": "ALBPR1035C",
+            "Voter ID": "ZI821555LP"
+          },
+          {
+            "Driving licence no": "34EWR9900",
+            "Passport no.": "237639487723874302"
+          }
+        ]
+      },
+      {
+        "tdData": [
+          {
+            "mOBILE PHONE": "<span class='font-18-book grey5'>(+91)</span>97165 49822",
+            "OFFICE PHONE": "<span class='font-18-book grey5'>(+91)</span>02832 22789"
+          },
+          {
+            "HOME PHONE": "<span class='font-18-book grey5'>(+91)</span>02832 22789",
+            "NOT CLASSIFIED": "<span class='font-18-book grey5'>(+91)</span>02565 57845"
+          }
+        ]
+      },
+      {
+        "tdData": [
+          {
+            "RESIDENTIAL ADDRESS": "Mahindra City, Capgemini, Chennai, Tamil Nadu, India - 603002"
+          },
+          {
+            "OFFICE ADDRESS": "One Indiabulls Centre, Tower 2A 19th Floor, Senapati Bapat Marg. Elphinstone Road, Mumbai"
+          }
+        ]
+      }
+    ]
+  }
+]

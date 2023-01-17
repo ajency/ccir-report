@@ -4,6 +4,9 @@
         <td>
             <h1 class="table-title {{.className}}">{{ safeHTML .tableTitle }} {{ if .tableInfo }}{{ partial "info-icon" (dict "message" .tableInfo "className" "middle")}}{{ end }}</h1>
         </td>
+        <td class="right-side">
+            <p class="ref-no"><span class="title">reference number</span><span>5653AFG34</span></p>
+        </td>
     </tr>
 </table>
 <!-- table title | end -->
