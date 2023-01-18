@@ -2645,4 +2645,7 @@ $grey5 : #707070;
   .derogatory-table{
     width: 20%;
   }
+  .delinquency-table, .recent-enquiry-table, .derogatory-table{
+    vertical-align: top;
+  }
 }
