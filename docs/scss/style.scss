@@ -2149,7 +2149,11 @@ tfoot {
   width: 48%;
 }
 
-//CCIR css
+/**************** CCIR css *****************/
+body {
+  color: #2c2c2c;
+}
+
 .header-left-side {
   td {
     padding-left: 30px;
@@ -2177,6 +2181,13 @@ $grey5 : #707070;
   line-height: $lineHeight;
   font-weight: $fontWeight;
 }
+
+.font-16 {
+  &-bold {
+    @include fontStyle(16px, 24px, 700);
+  }
+}
+
 
 .font-18 {
   &-book {
@@ -2239,7 +2250,7 @@ $grey5 : #707070;
 #table-title {
   margin-bottom: 10px;
 
-  .right-side {
+  .right-side.refNo {
     width: 20%;
   }
 }
@@ -2342,6 +2353,117 @@ $grey5 : #707070;
       }
     }
   }
+
+  &-style2 {
+    thead {
+      th {
+        background: #F6F7FC;
+        @include fontStyle(18px, 18px, 700);
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        padding: 15px 20px;
+        text-align: left;
+
+        .subHeading {
+          margin-left: 10px;
+          @include fontStyle(14px, 14px, 600);
+          color: $grey5;
+        }
+      }
+    }
+
+    td:not(:last-child),
+    th:not(:last-child) {
+      border-right: 1px solid #ACACAC;
+    }
+
+    td {
+      table {
+
+        td:not(:last-child),
+        th:not(:last-child) {
+          border: none;
+        }
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #DDDDDD;
+        }
+
+        tr {
+          td {
+            padding: 10px 20px;
+            text-align: center;
+
+            &:not(:last-child) {
+              border-right: 1px solid #DDDDDD;
+            }
+          }
+        }
+      }
+    }
+
+    sup {
+      font-size: 18px;
+    }
+
+    .count {
+      @include fontStyle(40px, 40px, 600);
+      margin-bottom: 4px !important;
+    }
+
+    .count-title {
+      @include fontStyle(16px, 24px, 700);
+      color: $grey5;
+    }
+
+    .count-medium {
+      @include fontStyle(32px, 32px, 600);
+      margin-bottom: 16px !important;
+    }
+
+    .text-blue {
+
+      .count,
+      .count-medium {
+        color: #00A6CA;
+      }
+    }
+
+    .text-red {
+
+      .count,
+      .count-title,
+      .count-medium {
+        color: #D74025;
+      }
+    }
+
+    .balance-td {
+      td {
+        text-align: right;
+      }
+    }
+
+    .count-subtitle {
+      @include fontStyle(12px, 18px, 600);
+    }
+
+    .count.green-state {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      color: #3BB012;
+      background: #D4F0A0;
+      border-radius: 31px;
+      padding: 9px 11px;
+      display: inline-block;
+    }
+    .count-text{
+      @include fontStyle(20px, 20px, 600);
+      margin-bottom: 10px !important;
+    }
+  }
 }
 
 .border-top-bottom {
@@ -2424,6 +2546,70 @@ $grey5 : #707070;
   }
 }
 
-.mb-15{
-  margin-bottom: 15px !important;
+.mb {
+  &-15 {
+    margin-bottom: 15px !important;
+  }
+
+  &-20 {
+    margin-bottom: 20px !important;
+  }
+}
+
+.trades {
+  @include fontStyle(18px, 24px, 600);
+  color: #2C2C2C;
+  text-align: right;
+
+  &:not(:last-child) {
+    padding-right: 30px;
+  }
+
+  .title {
+    @include fontStyle(16px, 24px, 700);
+    color: $grey5;
+  }
+
+  .trade {
+    margin: 0px;
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+.delinquency-table, .recent-enquiry-table {
+  .count {
+    margin-bottom: 20px !important;
+  }
+}
+.derogatory-table, .delinquency-table, .recent-enquiry-table{
+  td{
+    table{
+      tr{
+        td{
+          padding: 15px 20px;
+        }
+      }
+    }
+  }
+}
+.tables-group{
+  table{
+    margin-bottom: 0px !important;
+    &:not(:last-child){
+      margin-right: 22px;
+    }
+  }
+  .delinquency-table{
+    width: 40%;
+    padding-right: 22px;
+  }
+  .recent-enquiry-table{
+    padding-left: 22px;
+  }
+  .derogatory-table{
+    width: 20%;
+  }
 }
