@@ -2464,6 +2464,39 @@ $grey5 : #707070;
       margin-bottom: 10px !important;
     }
   }
+
+  &-style3{
+    th{
+      text-align: left;
+      padding: 20px;
+      background: #FFF7CF;
+    }
+    .title{
+      @include fontStyle(16px, 16px, 700);
+    }
+    td{
+      @include fontStyle(18px, 24px, 600);
+      table{
+        padding: 20px 0px;
+        td{
+          padding: 0px 20px;
+          &:not(:last-child){
+            border-right: 2px solid #F1CA00;
+          }
+        }
+      }
+    }
+    .alerts-list{
+      p{
+        &:not(:last-child){
+          margin-bottom: 18px;
+        }
+        .number{
+          font-weight: 400;
+        }
+      }
+    }
+  }
 }
 
 .border-top-bottom {

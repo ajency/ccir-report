@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "CREDIT HEALTH INSIGHTS (MFI)") }}
+            {{ partial "ccir/alerts-table" (dict "alertsData" ".Site.Data.ccir.borrower_summary" "footNote" true) }}
+            {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
+        </td>
+    </tr>
+</table>
+
+{{ end }}
