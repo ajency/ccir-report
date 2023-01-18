@@ -1,6 +1,7 @@
+{{$footNote:= .footNote}}
 {{if .algorithm_table}}
     {{range .algorithm_table}}
-        <table class="bordered-table padding-0 horizontal-border algorithm-table" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" >
+        <table class="bordered-table padding-0 horizontal-border algorithm-table {{if eq $footNote true}}mb-15{{end}}" role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" >
 
             {{if .table_head}}
                 <tr>

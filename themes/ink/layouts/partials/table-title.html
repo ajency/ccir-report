@@ -5,8 +5,18 @@
             <h1 class="table-title {{.className}}">{{ safeHTML .tableTitle }} {{ if .tableInfo }}{{ partial "info-icon" (dict "message" .tableInfo "className" "middle")}}{{ end }}</h1>
         </td>
         {{if .refNo }}
-        <td class="right-side">
+        <td class="right-side refNo">
             <p class="ref-no"><span class="title">reference number</span><span>{{ .refNo }}</span></p>
+        </td>
+        {{end}}
+        {{if or .oldestTrade .recentTrade}}
+        <td class="right-side trades">
+            {{if .oldestTrade}}
+                <p class="trade"><span class="title">OLDEST TRADE</span> : {{.oldestTrade}}</p>
+            {{end}}
+            {{if .recentTrade}}
+                <p class="trade"><span class="title">RECENT TRADE</span> : {{.recentTrade}}</p>
+            {{end}}
         </td>
         {{end}}
     </tr>
