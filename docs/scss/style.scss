@@ -2172,14 +2172,24 @@ body {
 $grey5 : #707070;
 
 .grey5 {
-  color: $grey5;
+  color: $grey5 !important;
 }
 
 //typography
 @mixin fontStyle($fontSize, $lineHeight, $fontWeight) {
-  font-size: $fontSize;
-  line-height: $lineHeight;
-  font-weight: $fontWeight;
+  font-size: $fontSize !important;
+  line-height: $lineHeight !important;
+  font-weight: $fontWeight !important;
+}
+
+.fw-book {
+  font-weight: 400 !important;
+}
+
+.font-14 {
+  &-regular {
+    @include fontStyle(14px, 14px, 600);
+  }
 }
 
 .font-16 {
@@ -2187,7 +2197,6 @@ $grey5 : #707070;
     @include fontStyle(16px, 24px, 700);
   }
 }
-
 
 .font-18 {
   &-book {
@@ -2306,11 +2315,6 @@ $grey5 : #707070;
     @include fontStyle(20px, 24px, 700);
   }
 
-  .grey5 {
-    letter-spacing: 0.02em;
-    margin-right: 10px;
-  }
-
   &-style1 {
     thead {
       th {
@@ -2350,6 +2354,13 @@ $grey5 : #707070;
             padding: 7.5px 10px;
           }
         }
+      }
+    }
+
+    .content {
+      .grey5 {
+        letter-spacing: 0.02em;
+        margin-right: 10px;
       }
     }
   }
@@ -2458,9 +2469,9 @@ $grey5 : #707070;
     }
 
     .count.green-state {
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 14px;
+      font-weight: 700 !important;
+      font-size: 14px !important;
+      line-height: 14px !important;
       text-align: center;
       color: #3BB012;
       background: #D4F0A0;
@@ -2584,15 +2595,32 @@ $grey5 : #707070;
 .foot-note {
   border-bottom: 2px solid #707070;
 
-  span {
+  td {
     font-style: italic;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #2C2C2C;
     display: inline-block;
-    margin-bottom: 15px;
-    margin-right: 20px;
+    padding-bottom: 15px;
+  }
+
+  .notations {
+    margin-left: 20px;
+
+    .notation {
+      .highlight-blue {
+        color: #00A6CA;
+      }
+
+      .highlight-darkblue {
+        color: #006685;
+      }
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
   }
 }
 
@@ -2699,5 +2727,125 @@ $grey5 : #707070;
   .recent-enquiry-table,
   .derogatory-table {
     vertical-align: top;
+  }
+}
+
+.vertical-heading-parent {
+  vertical-align: bottom;
+  position: relative;
+}
+
+.dpd-tag {
+  height: 6px;
+  background-color: grey;
+  width: calc(100% - 4px);
+  position: absolute;
+  left: 2px;
+  bottom: 2px;
+
+  &.yellow {
+    background-color: #FCD800;
+  }
+
+  &.orange {
+    background-color: #E79902;
+  }
+
+  &.red {
+    background-color: #D74025;
+  }
+}
+
+.verticle-heading {
+  transform: rotate(-180deg);
+  display: block;
+  writing-mode: tb-rl;
+  text-orientation: mixed;
+  text-align: left;
+  margin: auto;
+}
+
+.report-table {
+  &-summary {
+    tr {
+      th {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #00A6CA;
+        padding: 20px 10px 18px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ACACAC;
+        border-bottom: none;
+        border-left: none;
+        text-align: center;
+      }
+
+      td {
+        padding: 15px 10px;
+        @include fontStyle(18px, 24px, 600);
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+      &.combined-row {
+        td {
+          padding-top: 0px;
+          border-top: none;
+        }
+      }
+    }
+
+    .table-heading {
+      @include fontStyle(16px, 24px, 700);
+      text-align: left;
+
+      &.italic-grey {
+        font-style: italic;
+        color: $grey5;
+      }
+    }
+
+    tbody {
+      tr {
+        &:last-child {
+          td {
+            background: #F6F7FC;
+          }
+        }
+      }
+    }
+  }
+}
+
+.br-none {
+  border-right: none !important;
+}
+
+.status-tag {
+  position: relative;
+  height: 90px;
+
+  .tag {
+    text-align: center;
+    height: 100%;
+    background: #DDDDDD;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: rotate(180deg);
+    writing-mode: tb-rl;
+    text-orientation: mixed;
+    padding: 15px 4px;
+    &.active {
+      background: #CAF4FD;
+    }
   }
 }

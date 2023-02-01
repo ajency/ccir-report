@@ -2,6 +2,9 @@
     <tr>
         <td>
             <span class="note">{{.note}}</span>
+            {{if .notations}}
+                <span class="notations">{{range .notations}}<span class="notation">{{safeHTML .}}</span>{{end}}</span>
+            {{end}}
         </td>
     </tr>
 </table>
