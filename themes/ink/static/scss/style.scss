@@ -2400,6 +2400,15 @@ $grey5 : #707070;
           }
         }
       }
+
+      &.balance-td {
+        table {
+          td {
+            padding-top: 50px;
+            padding-bottom: 50px;
+          }
+        }
+      }
     }
 
     sup {
@@ -2407,7 +2416,7 @@ $grey5 : #707070;
     }
 
     .count {
-      @include fontStyle(40px, 40px, 600);
+      @include fontStyle(32px, 32px, 600);
       margin-bottom: 4px !important;
     }
 
@@ -2459,39 +2468,47 @@ $grey5 : #707070;
       padding: 9px 11px;
       display: inline-block;
     }
-    .count-text{
+
+    .count-text {
       @include fontStyle(20px, 20px, 600);
       margin-bottom: 10px !important;
     }
   }
 
-  &-style3{
-    th{
+  &-style3 {
+    th {
       text-align: left;
       padding: 20px;
       background: #FFF7CF;
     }
-    .title{
+
+    .title {
       @include fontStyle(16px, 16px, 700);
     }
-    td{
+
+    td {
       @include fontStyle(18px, 24px, 600);
-      table{
+
+      table {
         padding: 20px 0px;
-        td{
+
+        td {
           padding: 0px 20px;
-          &:not(:last-child){
+
+          &:not(:last-child) {
             border-right: 2px solid #F1CA00;
           }
         }
       }
     }
-    .alerts-list{
-      p{
-        &:not(:last-child){
+
+    .alerts-list {
+      p {
+        &:not(:last-child) {
           margin-bottom: 18px;
         }
-        .number{
+
+        .number {
           font-weight: 400;
         }
       }
@@ -2612,40 +2629,75 @@ $grey5 : #707070;
     }
   }
 }
-.delinquency-table, .recent-enquiry-table {
+
+.delinquency-table,
+.recent-enquiry-table {
   .count {
     margin-bottom: 20px !important;
   }
 }
-.derogatory-table, .delinquency-table, .recent-enquiry-table{
-  td{
-    table{
-      tr{
-        td{
-          padding: 15px 20px;
+
+.recent-enquiry-table {
+  td {
+    table {
+      tr {
+        td {
+          padding: 15px 20px 28px;
         }
       }
     }
   }
 }
-.tables-group{
-  table{
+
+.delinquency-table {
+  td {
+    table {
+      tr {
+        td {
+          padding: 15px 10px 10px;
+        }
+      }
+    }
+  }
+}
+
+.derogatory-table {
+  td {
+    table {
+      tr {
+        td {
+          padding: 13.5px 10px;
+        }
+      }
+    }
+  }
+}
+
+.tables-group {
+  table {
     margin-bottom: 0px !important;
-    &:not(:last-child){
+
+    &:not(:last-child) {
       margin-right: 22px;
     }
   }
-  .delinquency-table{
-    width: 40%;
+
+  .delinquency-table {
+    width: 45%;
     padding-right: 22px;
   }
-  .recent-enquiry-table{
+
+  .recent-enquiry-table {
     padding-left: 22px;
   }
-  .derogatory-table{
+
+  .derogatory-table {
     width: 20%;
   }
-  .delinquency-table, .recent-enquiry-table, .derogatory-table{
+
+  .delinquency-table,
+  .recent-enquiry-table,
+  .derogatory-table {
     vertical-align: top;
   }
 }

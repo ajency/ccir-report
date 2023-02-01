@@ -1,0 +1,121 @@
+[
+  {
+    "accounts": [
+        {
+            "row":[
+                {
+                    "title": "TOTAL ACCOUNTS",
+                    "content": "4",
+                    "width": "35%"
+                },
+                {
+                    "title": "ACTIVE",
+                    "content": "3",
+                    "status": "text-blue"
+                },
+                {
+                    "title": "TOTAL OVERDUE",
+                    "content": "2",
+                    "status": "text-red"
+                }
+            ]
+        },
+        {
+            "row":[
+                {
+                    "title": "GOOD CLOSURE",
+                    "content": "1"
+                },
+                {
+                    "title": "GOOD CLOSURE",
+                    "content": "1"
+                }
+            ]
+        }
+    ],
+    "balances": [
+        {
+            "row":[
+                {
+                    "title": "ACTIVE HIGH CR / SANC.",
+                    "content": "<sup>₹</sup>10, 97,80,000",
+                    "width": 260
+                },
+                {
+                    "title": "TOTAL HIGH CR / SANC.",
+                    "content": "<sup>₹</sup>10,89,40,002",
+                    "width": 250
+                },
+                {
+                    "title": "CURRENT BALANCE",
+                    "content": "<sup>₹</sup>7,09,890",
+                    "status": "text-blue"
+                },
+                {
+                    "title": "OVERDUE",
+                    "content": "<sup>₹</sup>4,500",
+                    "status": "text-red",
+                    "width": 140
+                }
+            ]
+        }
+    ],
+    "delinquency": [
+        {
+            "row":[
+                {
+                    "title": "1+ DPD",
+                    "subtitle": "(IN PAST 12 MONTHS)",
+                    "content": "5"
+                },
+                {
+                    "title": "30+ DPD",
+                    "subtitle": "(IN PAST 12 MONTHS)",
+                    "content": "2"
+                },
+                {
+                    "title": "60+ DPD",
+                    "subtitle": "(IN PAST 12 MONTHS)",
+                    "content": "1"
+                },
+                {
+                    "title": "90+ DPD",
+                    "subtitle": "(IN PAST 12 MONTHS)",
+                    "content": "NO DPD",
+                    "state": "green-state"
+                }
+            ]
+        }
+    ],
+    "derogatory":[
+        {
+            "row":[
+                {
+                    "title":"WORST RATING EVER",
+                    "subtitle": "(IN PAST 36 MONTHS)",
+                    "content": "NO ACCOUNTS WITH DEROGATORY STATUS"
+                }
+            ]
+        }
+    ],
+    "recent_enquiry":[
+        {
+            "row":[
+                {
+                    "title":"IN 30 DAYS",
+                    "content": "1",
+                    "status": "text-blue"
+                },
+                {
+                    "title":"IN 30 DAYS",
+                    "content": "1"
+                },
+                {
+                    "title":"IN 360 DAYS",
+                    "content": "4"
+                }
+            ]
+        }
+    ]
+  }
+]
