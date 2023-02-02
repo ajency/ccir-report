@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "TRADELINE SUMMARY") }}
+            {{ partial "ccir/tradeline-summary-table" (dict "footNote" true) }}
+            {{ partial "ccir/foot-note" (dict "note" "Dispute reported in one or two tradelines" "notations" .Site.Data.ccir.notations_ps) }}
+        </td>
+    </tr>
+</table>
+
+{{ end }}

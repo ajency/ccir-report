@@ -2186,6 +2186,10 @@ $grey5 : #707070;
   font-weight: 400 !important;
 }
 
+.fw-regular {
+  font-weight: 600 !important;
+}
+
 .font-14 {
   &-regular {
     @include fontStyle(14px, 14px, 600);
@@ -2233,6 +2237,16 @@ $grey5 : #707070;
 .text {
   &-uppercase {
     text-transform: uppercase;
+  }
+}
+
+.valign {
+  &-top {
+    vertical-align: top;
+  }
+
+  &-bottom {
+    vertical-align: bottom;
   }
 }
 
@@ -2756,7 +2770,7 @@ $grey5 : #707070;
   }
 }
 
-.verticle-heading {
+.vertical-heading {
   transform: rotate(-180deg);
   display: block;
   writing-mode: tb-rl;
@@ -2789,13 +2803,20 @@ $grey5 : #707070;
         padding: 15px 10px;
         @include fontStyle(18px, 24px, 600);
 
+        &.table-heading-small {
+          font-size: 16px !important;
+          line-height: 114.5% !important;
+        }
+
         &:last-child {
           border-right: none;
         }
       }
 
       &.combined-row {
-        td {
+
+        td,
+        th {
           padding-top: 0px;
           border-top: none;
         }
@@ -2830,9 +2851,14 @@ $grey5 : #707070;
 
 .status-tag {
   position: relative;
-  height: 90px;
+  height: 83px;
+  padding-left: 0px !important;
+  padding-right: 32px !important;
 
   .tag {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
     text-align: center;
     height: 100%;
     background: #DDDDDD;
@@ -2843,9 +2869,20 @@ $grey5 : #707070;
     transform: rotate(180deg);
     writing-mode: tb-rl;
     text-orientation: mixed;
-    padding: 15px 4px;
+    padding: 6px 4px;
+
     &.active {
       background: #CAF4FD;
     }
+  }
+}
+
+.text {
+  &-right {
+    text-align: right !important;
+  }
+
+  &-center {
+    text-align: center !important;
   }
 }
