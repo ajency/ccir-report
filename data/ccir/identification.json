@@ -1,0 +1,65 @@
+[
+  {
+    "mainTableClasses": "borderSpacingTable",
+    "footerTableClasses": "",
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "<span class='table-heading-small'>PAN CARD</span><span class='highlight-blue'>(e)</span>AHVPB6643A"
+          },
+          {
+            "content": "<span class='table-heading-small'>UID</span><span class='highlight-blue'>(e)</span>NOT DISCLOSED"
+          },
+          {
+            "content": "<span class='table-heading-small'>PASSPORT NUMBER</span><span class='highlight-blue'>(e)</span>GDHSJ67EHDKE837"
+          },
+          {
+            "content": "<span class='table-heading-small'>DRIVING LICENSE</span><span class='highlight-blue'>(e)</span>TY67UHJI98"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='table-heading-small'>RATION CARD</span><span class='highlight-blue'>(e)</span>AHVPB6643A"
+          },
+          {
+            "content": "<span class='table-heading-small'>UID</span><span class='highlight-blue'>(m)</span>NOT DISCLOSED"
+          },
+          {
+            "content": "<span class='table-heading-small'>VOTER ID</span><span class='highlight-blue'>(e)</span>GDGH73648DHJ2"
+          },
+          {
+            "content": "<span class='table-heading-small'>NREGA CARD NUMBER</span><span class='highlight-blue'>(e)</span>HJFUI89729"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "45%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Dispute in the Ration Card number"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

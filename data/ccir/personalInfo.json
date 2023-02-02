@@ -1,0 +1,80 @@
+[
+  {
+    "mainTableClasses": "",
+    "footerTableClasses": "",
+    "mainTableHead": [
+      {
+        "heading": "REPOSITORY"
+      },
+      {
+        "heading": "NAME",
+        "width": "45%"
+      },
+      {
+        "heading": "DOB"
+      },
+      {
+        "heading": "GENDER"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "Consumer"
+          },
+          {
+            "content": "Mohana Parab"
+          },
+          {
+            "content": "07/10/2004"
+          },
+          {
+            "content": "Female"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "MFI"
+          },
+          {
+            "content": "Mohana Ramesh Parab"
+          },
+          {
+            "content": "07/10/2004"
+          },
+          {
+            "content": "Female"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "45%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Dispute in DOB for Mohana Parab"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

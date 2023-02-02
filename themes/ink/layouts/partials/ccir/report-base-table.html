@@ -1,0 +1,80 @@
+{{$footerTableColspan := .footerTableColspan}}
+{{if .tableData}}
+    {{range .tableData}}
+        <table class="report-table bordered-table report-base-table padding-0 {{if eq .footNote true}}mb-15{{end}} {{if .mainTableClasses}}{{.mainTableClasses}}{{end}}">
+            {{$mainTableClasses := .mainTableClasses}}
+            {{if .mainTableHead}}
+                <thead>
+                    {{range .mainTableHead}}
+                        <th {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{.heading}}</th>
+                    {{end}}
+                </thead>
+            {{end}}
+            <tbody>
+                {{if .mainTableBody}}
+                    {{if in $mainTableClasses "borderSpacingTable"}}
+                        <tr>
+                            <td class="borderSpacingInner">
+                                <table>
+                                    {{range .mainTableBody}}
+                                        <tr>
+                                            <td>
+                                                <table>
+                                                    <tr>
+                                                        {{range .data}}<td class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>{{end}}
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    {{end}}
+                                </table>
+                            </td>
+                        </tr>
+
+                    {{else}}
+
+                        {{range .mainTableBody}}
+                            <tr>
+                                {{range .data}}<td class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>{{end}}
+                            </tr>
+                        {{end}}
+
+                    {{end}}
+                    
+                {{end}}
+
+                {{if .footerTableBody}}
+                    <tr class="base-table-footer-wraper">
+                        <td {{if $footerTableColspan}}colspan="{{$footerTableColspan}}"{{end}} style="border-top:none" class="padding-0">
+                            <table class="base-table-footer {{if .footerTableClasses}}{{.footerTableClasses}}{{end}}">
+                                {{if .footerTableHead}}
+                                    {{range .footerTableHead}}
+                                        <thead>
+                                            <tr>
+                                                {{range .head}}
+                                                    <th {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</th>
+                                                {{end}}
+                                            </tr>
+                                        </thead>
+                                    {{end}}
+                                {{end}}
+                                {{if .footerTableBody}}
+                                    <tbody>
+                                        {{range .footerTableBody}}
+                                            <tr>
+                                                {{range .data}}
+                                                    <td {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>
+                                                {{end}}
+                                            </tr>
+                                        {{end}}
+                                    </tbody>
+                                {{end}}
+
+                            </table>
+                        </td>
+                    </tr>
+                {{end}}
+            </tbody>
+        </table>
+    {{end}}
+{{end}}

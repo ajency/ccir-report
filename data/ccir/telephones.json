@@ -1,0 +1,54 @@
+[
+    {
+      "mainTableClasses": "borderSpacingTable",
+      "footerTableClasses": "",
+      "mainTableBody": [
+        {
+          "data": [
+            {
+              "content": "<span class='table-heading-small'>HOME PHONE</span><span class='highlight-blue'>(e)</span>(022) 23018394"
+            },
+            {
+              "content": "<span class='table-heading-small'>MOBILE PHONE</span><span class='highlight-blue'>(e)</span>(+91) 91837 46382"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "content": "<span class='table-heading-small'>OFFICE PHONE</span><span class='highlight-blue'>(e)</span>(022) 23018394"
+            },
+            {
+              "content": "<span class='table-heading-small'>NOT CLASSIFIED</span><span class='highlight-blue'>(e)</span>(022) 23018394"
+            }
+          ]
+        }
+      ],
+      "footerTableHead": [
+        {
+          "head": [
+            {
+              "content": "INFORMATION UNDER DISPUTE",
+              "width": "50%"
+            },
+            {
+              "content": "DISPUTE DATE"
+            }
+          ]
+        }
+      ],
+      "footerTableBody": [
+        {
+          "data": [
+            {
+              "content": "Residential number is incorrect"
+            },
+            {
+              "content": "26/02/2021"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

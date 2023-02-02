@@ -1,4 +1,40 @@
 {{ define "main" }}
 
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "PERSONAL INFORMATION") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.personalInfo "footerTableColspan" "4") }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "IDENTIFICATION(S)") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.identification) }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td class="table-group2">
+            <table class="table-group-cols">
+                <tr>
+                    <td class="cols-2">
+                        {{ partial "table-title" (dict "tableTitle" "TELEPHONE(S)") }}
+                        {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.telephones) }}
+                    </td>
+                    <td class="cols-2">
+                        {{ partial "table-title" (dict "tableTitle" "EMAIL(S)") }}
+                        {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.emails) }}
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
 
 {{ end }}
