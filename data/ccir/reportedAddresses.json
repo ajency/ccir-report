@@ -1,0 +1,220 @@
+[
+  {
+    "mainTableClasses": "no-horizontal-border",
+    "footerTableClasses": "",
+    "colgroups":[
+        "57px",
+        "40%"
+    ],
+    "mainTableHead": [
+      {
+        "heading": "ADDRESS(ES)",
+        "colspan": 2
+      },
+      {
+        "heading": "CATEGORY"
+      },
+      {
+        "heading": "PINCODE"
+      },
+      {
+        "heading": "DATE REPORTED"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(e)</span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "Ground Floor, Sentinel House, Apollo Bandar Rd, Azmi Street, Colaba, Mumbai",
+            "classes": "pl-0"
+          },
+          {
+            "content": "Permanent"
+          },
+          {
+            "content": "400202"
+          },
+          {
+            "content": "15/07/2019"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(m)</span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "One Indiabulls Centre, Tower 2A 19th Floor, Senapati Bapat Marg. Elphinstone Road, Mumbai",
+            "classes": "pl-0"
+          },
+          {
+            "content": "Permanent"
+          },
+          {
+            "content": "-"
+          },
+          {
+            "content": "14/05/2014"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(c)</span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "First Floor, Shivaji House, Bandar Rd. Kaifi Azmi Street, Colaba, Mumbai ",
+            "classes": "pl-0"
+          },
+          {
+            "content": "Residential"
+          },
+          {
+            "content": "-"
+          },
+          {
+            "content": "18/10/2013"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'></span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "One Indiabulls Centre, Tower 2A. 19th Floor, Senapati Bapat Marg, Elphinstone Road, Mumbai",
+            "classes": "pl-0"
+          },
+          {
+            "content": "Office"
+          },
+          {
+            "content": "400202"
+          },
+          {
+            "content": "16/09/2004"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(m)</span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "80, Anand Bhuvan, Princess Street, Mumbai, Maharashtra",
+            "classes": "pl-0"
+          },
+          {
+            "content": "NOT DISCLOSED"
+          },
+          {
+            "content": "400002"
+          },
+          {
+            "content": "16/09/2004"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(c)</span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "M 32 Gokul Garden, Thakur Complex, Kandivali (east), Mumbai, Maharashtra",
+            "classes": "pl-0"
+          },
+          {
+            "content": "NOT DISCLOSED"
+          },
+          {
+            "content": "400002"
+          },
+          {
+            "content": "16/09/2004"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'></span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "115, Vasan Udyog Bhavan, Tulsi Pipe Rd, Lower Parel, Mumbai",
+            "classes": "pl-0"
+          },
+          {
+            "content": "Office"
+          },
+          {
+            "content": "400202"
+          },
+          {
+            "content": "16/09/2004"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(e)</span>",
+            "classes": "pr-8"
+          },
+          {
+            "content": "Opp Green Roadways,near Hotel, Orient, Kasba Peth, Pune",
+            "classes": "pl-0"
+          },
+          {
+            "content": "Residential"
+          },
+          {
+            "content": "400202"
+          },
+          {
+            "content": "16/09/2004"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "45%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Pincode is incorrect for address reported through MFI Bureau"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

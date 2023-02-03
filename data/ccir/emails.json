@@ -1,62 +1,61 @@
 [
-    {
-      "mainTableClasses": "borderSpacingTable emailsTable",
-      "footerTableClasses": "",
-      "mainTableBody": [
-        {
-          "data": [
-            {
-              "content": "<span class='highlight-blue'>(e)</span>mohanaparab@gmail.com"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "content": "<span class='highlight-blue'>(m)</span>mp1234@hotmail.com"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "content": "<span class='highlight-blue'>(c)</span>parabmohana12@yahoo.com"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "content": "<span class='highlight-blue'></span>parabmohana12@gmail.com"
-            }
-          ]
-        }
-      ],
-      "footerTableHead": [
-        {
-          "head": [
-            {
-              "content": "INFORMATION UNDER DISPUTE",
-              "width": "50%"
-            },
-            {
-              "content": "DISPUTE DATE"
-            }
-          ]
-        }
-      ],
-      "footerTableBody": [
-        {
-          "data": [
-            {
-              "content": "Email is incorrect"
-            },
-            {
-              "content": "26/02/2021"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-  
+  {
+    "mainTableClasses": "borderSpacingTable emailsTable",
+    "footerTableClasses": "",
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(e)</span>mohanaparab@gmail.com"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(m)</span>mp1234@hotmail.com"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'>(c)</span>parabmohana12@yahoo.com"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='highlight-blue'></span>parabmohana12@gmail.com"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "50%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Email is incorrect"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

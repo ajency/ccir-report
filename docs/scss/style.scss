@@ -2528,6 +2528,7 @@ $grey5 : #707070;
     }
 
     .alerts-list {
+      vertical-align: top;
       p {
         &:not(:last-child) {
           margin-bottom: 18px;
@@ -2535,6 +2536,7 @@ $grey5 : #707070;
 
         .number {
           font-weight: 400;
+          color: #707070;
         }
       }
     }
@@ -2618,21 +2620,22 @@ $grey5 : #707070;
     display: inline-block;
     padding-bottom: 15px;
   }
+  .note{
+    margin-right: 20px;
+  }
 
   .notations {
-    margin-left: 20px;
 
     .notation {
+      &:last-child{
+        margin-right: 0px !important;
+      }
       .highlight-blue {
         color: #00A6CA;
       }
 
       .highlight-darkblue {
         color: #006685;
-      }
-
-      &:not(:last-child) {
-        margin-right: 20px;
       }
     }
   }
@@ -2645,6 +2648,20 @@ $grey5 : #707070;
 
   &-20 {
     margin-bottom: 20px !important;
+  }
+}
+
+.pl{
+  &-0{
+    padding-left: 0px !important;
+  }
+  &-8{
+    padding-left: 8px !important;
+  }
+}
+.pr{
+  &-8{
+    padding-right: 8px !important;
   }
 }
 
@@ -2960,6 +2977,13 @@ $grey5 : #707070;
       min-width: 27px;
       display: inline-block;
     }
+    .pr-8{
+      vertical-align: top;
+      border-right: none;
+      .highlight-blue{
+        margin-right: 0px;
+      }
+    }
     &.borderSpacingTable{
       tr{
         &:not(:first-child){
@@ -3015,6 +3039,25 @@ $grey5 : #707070;
                   }
                 }
               }
+          }
+        }
+      }
+    }
+    &.no-horizontal-border{
+      tr{
+        &:not(:first-child){
+          td{
+            border-top: none;
+          }
+        }
+        &:not(:last-child){
+          td{
+            padding-bottom: 0px;
+          }
+        }
+        &:nth-last-child(2){
+          td{
+            padding-bottom: 15px;
           }
         }
       }

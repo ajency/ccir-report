@@ -37,4 +37,25 @@
     </tr>
 </table>
 
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "CONSUMER’S REPORTED ADDRESS(ES)") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.reportedAddresses "footerTableColspan" "5" "footNote" true) }}
+            {{ partial "ccir/foot-note" (dict "notations" .Site.Data.ccir.notations_cra "spacing" "84px") }}
+            {{ partial "spacer" (dict "space" "40") }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "Insights on Demographic DETAILS") }}
+            {{ partial "ccir/alerts-table" (dict "alertsData" .Site.Data.ccir.alerts_demographic_details "footNote" true) }}
+            {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
+        </td>
+    </tr>
+</table>
+
 {{ end }}

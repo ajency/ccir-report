@@ -1,0 +1,19 @@
+[
+    {
+        "row":[
+            {
+                "column":[
+                    "<span class='number'>1.   </span>Months since latest phone update",
+                    "<span class='number'>2.   </span>Months since latest address update",
+                    "<span class='number'>3.   </span>No. of address updated in last 6/12 M"
+                ]
+            },
+            {
+                "column":[
+                    "<span class='number'>4.   </span>No. of phone updated in last 6/12 M",
+                    "<span class='number'>5.   </span>Dual DOB, PAN"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "row":[
+            {
+                "column":[
+                    "<span class='number'>1.   </span>Borrower has more than 2 live accounts",
+                    "<span class='number'>2.   </span>Borrower has live accounts from more than 2 credit grantors",
+                    "<span class='number'>3.   </span>One or more live accounts with Overdue Amount",
+                    "<span class='number'>4.   </span>Total Outstanding / Current Balance is more than INR 60,000"
+                ]
+            },
+            {
+                "column":[
+                    "<span class='number'>5.   </span>One or more live accounts with Written Off Status",
+                    "<span class='number'>6.   </span>One or more live accounts with Delinquent Status",
+                    "<span class='number'>7.   </span>One of the Co-borrowers in JLG Group is having Delinquent Status",
+                    "<span class='number'>8.   </span>One of the Co-borrowers in JLG Group is having Overdue Amount"
+                ]
+            }
+        ]
+    }
+]

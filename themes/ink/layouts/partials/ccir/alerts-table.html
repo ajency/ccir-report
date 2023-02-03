@@ -5,26 +5,25 @@
       <th class="title">ALERTS</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <td class="alerts-list">
-                        <p><span class="number">1.</span>   Borrower has more than 2 live accounts</p>
-                        <p><span class="number">2.</span>   Borrower has live accounts from more than 2 credit grantors</p>
-                        <p><span class="number">3.</span>   One or more live accounts with Overdue Amount</p>
-                        <p><span class="number">4.</span>   Total Outstanding / Current Balance is more than INR 60,000</p>
-                    </td>
-                    <td class="alerts-list">
-                        <p><span class="number">5.</span>   One or more live accounts with Written Off Status</p>
-                        <p><span class="number">6.</span>   One or more live accounts with Delinquent Status</p>
-                        <p><span class="number">7.</span>   One of the Co-borrowers in JLG Group is having Delinquent Status</p>
-                        <p><span class="number">8.</span>   One of the Co-borrowers in JLG Group is having Overdue Amount</p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-  </tbody>
+  {{if .alertsData}}
+    <tbody>
+      <tr>
+          <td>
+              {{range .alertsData}}
+                  <table>
+                      <tr>
+                        {{range .row}}
+                          <td class="alerts-list">
+                              {{range .column}}
+                                <p>{{safeHTML .}}</p>
+                              {{end}}
+                          </td>
+                          {{end}}
+                      </tr>
+                  </table>
+              {{end}}
+          </td>
+      </tr>
+    </tbody>
+  {{end}}
 </table>
