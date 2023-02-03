@@ -2,7 +2,7 @@
 {{$footNote:= .footNote}}
 {{if .tableData}}
     {{range .tableData}}
-        <table class="report-table bordered-table report-base-table padding-0 {{if eq $footNote true}}mb-15{{end}} {{if .mainTableClasses}}{{.mainTableClasses}}{{end}} {{if eq .footNote true}}mb-15{{end}}">
+        <table class="report-table bordered-table report-base-table padding-0 {{if eq $footNote true}}mb-15{{end}} {{if .mainTableClasses}}{{.mainTableClasses}}{{end}}">
             {{$mainTableClasses := .mainTableClasses}}
                 {{if .colgroups}}
                     <colgroup>

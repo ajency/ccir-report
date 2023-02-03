@@ -2200,6 +2200,7 @@ $grey5 : #707070;
   &-bold {
     @include fontStyle(16px, 24px, 700);
   }
+
   &-regular {
     @include fontStyle(16px, 16px, 600);
   }
@@ -2532,6 +2533,7 @@ $grey5 : #707070;
 
     .alerts-list {
       vertical-align: top;
+
       p {
         &:not(:last-child) {
           margin-bottom: 18px;
@@ -2623,16 +2625,18 @@ $grey5 : #707070;
     display: inline-block;
     padding-bottom: 15px;
   }
-  .note{
+
+  .note {
     margin-right: 20px;
   }
 
   .notations {
 
     .notation {
-      &:last-child{
+      &:last-child {
         margin-right: 0px !important;
       }
+
       .highlight-blue {
         color: #00A6CA;
       }
@@ -2654,16 +2658,18 @@ $grey5 : #707070;
   }
 }
 
-.pl{
-  &-0{
+.pl {
+  &-0 {
     padding-left: 0px !important;
   }
-  &-8{
+
+  &-8 {
     padding-left: 8px !important;
   }
 }
-.pr{
-  &-8{
+
+.pr {
+  &-8 {
     padding-right: 8px !important;
   }
 }
@@ -2982,46 +2988,55 @@ $grey5 : #707070;
       min-width: 27px;
       display: inline-block;
     }
-    .pr-8{
+
+    .pr-8 {
       vertical-align: top;
       border-right: none;
-      .highlight-blue{
+
+      .highlight-blue {
         margin-right: 0px;
       }
     }
-    &.borderSpacingTable{
-      tr{
-        &:not(:first-child){
-          td{
+
+    &.borderSpacingTable {
+      tr {
+        &:not(:first-child) {
+          td {
             border-top: none;
           }
         }
-        td{
+
+        td {
           padding: 10px 0px;
-          table{
-            tr{
-              td{
+
+          table {
+            tr {
+              td {
                 border-top: none;
                 border-bottom: none;
                 padding: 0px 20px;
               }
             }
           }
-          &.borderSpacingInner{
+
+          &.borderSpacingInner {
             padding-top: 20px;
             padding-bottom: 15px;
-            table{
-              tr{
-                &:not(:last-child){
-                  td{
+
+            table {
+              tr {
+                &:not(:last-child) {
+                  td {
                     padding-bottom: 20px;
                   }
                 }
-                td{
+
+                td {
                   padding: 0px;
-                  table{
-                    tr{
-                      td{
+
+                  table {
+                    tr {
+                      td {
                         padding: 0px 20px !important;
                       }
                     }
@@ -3032,36 +3047,40 @@ $grey5 : #707070;
           }
         }
       }
-      &.emailsTable{
-        tr{
-          td{
-              table{
-                tr{
-                  &:not(:last-child){
-                    td{
-                      padding-bottom: 10.5px;
-                    }
+
+      &.emailsTable {
+        tr {
+          td {
+            table {
+              tr {
+                &:not(:last-child) {
+                  td {
+                    padding-bottom: 10.5px;
                   }
                 }
               }
+            }
           }
         }
       }
     }
-    &.no-horizontal-border{
-      tr{
-        &:not(:first-child){
-          td{
+
+    &.no-horizontal-border {
+      tr {
+        &:not(:first-child) {
+          td {
             border-top: none;
           }
         }
-        &:not(:last-child){
-          td{
+
+        &:not(:last-child) {
+          td {
             padding-bottom: 0px;
           }
         }
-        &:nth-last-child(2){
-          td{
+
+        &:nth-last-child(2) {
+          td {
             padding-bottom: 15px;
           }
         }
@@ -3070,12 +3089,246 @@ $grey5 : #707070;
   }
 }
 
-.table-group2{
-  .table-group-cols{
-    .cols-2{
+.table-group2 {
+  .table-group-cols {
+    .cols-2 {
       vertical-align: top;
-      &:not(:last-child){
+
+      &:not(:last-child) {
         padding-right: 31px;
+      }
+    }
+  }
+}
+
+.report-heading {
+  margin-bottom: 30px;
+}
+
+.report-table {
+  &.report-account-table {
+    border-top: 1px solid #ACACAC;
+
+    .title-blue {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #00A6CA;
+      text-transform: uppercase;
+    }
+
+    th {
+      border-radius: 0px !important;
+      background: #F6F7FC;
+      text-align: left;
+      padding: 10px 20px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .account-top-head {
+      td {
+        &.status {
+          vertical-align: top;
+
+          img {
+            margin-top: -2px;
+            margin-right: -2px;
+          }
+        }
+
+        &.status-text {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 18px;
+          text-align: right;
+          text-transform: uppercase;
+          color: #2C2C2C;
+          width: 90px;
+        }
+
+        &.account-table-title {
+          padding: 15px 20px;
+        }
+      }
+
+      .dates {
+        padding-right: 60px;
+      }
+    }
+
+    .vertical-separator {
+      padding-left: 10px;
+      padding-right: 10px;
+      display: inline-block;
+
+      span {
+        display: inline-block;
+        vertical-align: middle;
+        height: 24px;
+        width: 1px;
+        background-color: #707070;
+      }
+    }
+
+    .dates {
+      text-align: right;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #2C2C2C;
+    }
+
+    .inner-table {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      vertical-align: top;
+
+      &:not(:last-child) {
+        border-right: 1px solid #ACACAC;
+      }
+
+      tr {
+        td {
+          vertical-align: top;
+          padding: 8px 20px;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          color: #2C2C2C;
+
+          .title-blue {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .account-info {
+      thead {
+        th {
+          &:not(:last-child) {
+            border-right: 1px solid #ACACAC;
+          }
+        }
+      }
+    }
+
+    .horizontal-border-table {
+      tr {
+        td {
+          padding: 10px 20px;
+          text-align: center;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        &:not(:last-child) {
+          td {
+            border-bottom: 1px solid #DDDDDD;
+          }
+        }
+      }
+    }
+
+    .account-footer {
+      thead {
+        th {
+          background-color: #fff;
+          color: #707070;
+          padding: 15px 20px 10px;
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            padding: 0px 20px 15px;
+          }
+        }
+      }
+    }
+
+    .payment-status {
+      padding-top: 6px;
+      td {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0px !important;
+
+        &.pb-7 {
+          padding-bottom: 7px !important;
+        }
+      }
+
+      .grey5 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      .status-box {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 50px;
+        height: 62px;
+        display: inline-block;
+        margin-right: 10px;
+
+        span {
+          display: block;
+          height: 50%;
+          width: 100%;
+          text-align: center;
+          padding-top: 6px;
+        }
+
+        &.blue {
+          background-image: url(../images/static-images/late-payment-blue.png);
+
+          span {
+            &:not(:last-child) {
+              border-bottom: 2px solid #006685;
+            }
+          }
+        }
+
+        &.yellow {
+          background-image: url(../images/static-images/late-payment-yellow.png);
+
+          span {
+            &:not(:last-child) {
+              border-bottom: 2px solid #FCD800;
+            }
+          }
+        }
+
+        &.orange {
+          background-image: url(../images/static-images/late-payment-orange.png);
+
+          span {
+            &:not(:last-child) {
+              border-bottom: 2px solid #E79902;
+            }
+          }
+        }
+
+        &.red {
+          background-image: url(../images/static-images/late-payment-red.png);
+
+          span {
+            &:not(:last-child) {
+              border-bottom: 2px solid #D74025;
+            }
+          }
+        }
       }
     }
   }

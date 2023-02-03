@@ -1,0 +1,11 @@
+<table class="report-heading">
+    <colgroup>
+        <col style="width:60px;">
+    </colgroup>
+    <tbody>
+        <tr>
+            {{if .iconUrl}}<td style=" padding-right:16px;"><img width="44" height="44" style="display: block;" src="{{ .iconUrl | relURL }}"></td>{{end}}
+            {{if .heading}}<td class="font-36-bold">{{.heading}}</td>{{end}}
+        </tr>
+    </tbody>
+</table>

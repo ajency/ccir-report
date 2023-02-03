@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+                {{partial "ccir/report-heading" (dict "heading" "CONSUMER TRADELINE" "iconUrl" "images/static-images/consumer-tradeline-icon.png")}}
+                {{partial "ccir/report-account-table"}}
+        </td>
+    </tr>
+</table>
+
+{{ end }}
