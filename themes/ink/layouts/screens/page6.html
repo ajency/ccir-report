@@ -7,6 +7,16 @@
             {{ partial "spacer" (dict "space" "20") }}
             {{ partial "table-title" (dict "tableTitle" "CONSUMER" "className" "medium") }}
             {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.employeeInfo_consumer "footerTableColspan" "6") }}
+            {{ partial "spacer" (dict "space" "20") }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "MFI" "className" "medium") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.employeeInfo_mfi "footerTableColspan" "7") }}
         </td>
     </tr>
 </table>

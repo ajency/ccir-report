@@ -1,0 +1,171 @@
+[
+  {
+    "mainTableClasses": "no-horizontal-border",
+    "footerTableClasses": "",
+    "colgroups":[
+      "250px",
+      "152px",
+      "167px",
+      "258px",
+      "258px"
+    ],
+    "mainTableHead": [
+      {
+        "heading": "MEMBER NAME"
+      },
+      {
+        "heading": "REPORTED<br/>DATE"
+      },
+      {
+        "heading": "OCCUPATION"
+      },
+      {
+        "heading": "MONTHLY FAMILY INCOME <span class='grey5 font-16-regular'>(₹)</span>"
+      },
+      {
+        "heading": "MONTHLY FAMILY EXPENSE <span class='grey5 font-16-regular'>(₹)</span>"
+      },
+      {
+        "heading": "POVERTy<br/>INDEX"
+      },
+      {
+        "heading": "ASSET<br/>OWNERSHIP"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "Pahal Finance"
+          },
+          {
+            "content": "30/04/2022"
+          },
+          {
+            "content": "Service"
+          },
+          {
+            "content": "86,886",
+            "classes": "text-right"
+          },
+          {
+            "content": "79,982",
+            "classes": "text-right"
+          },
+          {
+            "content": "20"
+          },
+          {
+            "content": "Y"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED"
+          },
+          {
+            "content": "31/01/2022"
+          },
+          {
+            "content": "Service"
+          },
+          {
+            "content": "85,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "55,043",
+            "classes": "text-right"
+          },
+          {
+            "content": "15"
+          },
+          {
+            "content": "N"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED"
+          },
+          {
+            "content": "30/11/2021"
+          },
+          {
+            "content": "Service"
+          },
+          {
+            "content": "98,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "76,567",
+            "classes": "text-right"
+          },
+          {
+            "content": "20"
+          },
+          {
+            "content": "Y"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED"
+          },
+          {
+            "content": "30/11/2021"
+          },
+          {
+            "content": "Service"
+          },
+          {
+            "content": "15,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "12,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "8"
+          },
+          {
+            "content": "N"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "26%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Income in dispute"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]
