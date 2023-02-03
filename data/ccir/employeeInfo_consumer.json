@@ -1,0 +1,153 @@
+[
+  {
+    "mainTableClasses": "no-horizontal-border",
+    "footerTableClasses": "",
+    "colgroups":[
+      "",
+      "",
+      "264px",
+      "",
+      "254px",
+      "231px"
+    ],
+    "mainTableHead": [
+      {
+        "heading": "account type"
+      },
+      {
+        "heading": "REPORTED DATE"
+      },
+      {
+        "heading": "OCCUPATION CODE"
+      },
+      {
+        "heading": "INCOME <span class='grey5 font-16-regular'>(₹)</span>"
+      },
+      {
+        "heading": "NET / GROSS<br/>INCOME INDICATOR"
+      },
+      {
+        "heading": "MONTHLY / ANNUAL<br/>FAMILY INCOME"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "Credit Card"
+          },
+          {
+            "content": "30/04/2022"
+          },
+          {
+            "content": "Not Available"
+          },
+          {
+            "content": "1,00,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "Gross Income"
+          },
+          {
+            "content": "Monthly"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Personal Loan"
+          },
+          {
+            "content": "31/01/2022"
+          },
+          {
+            "content": "Others"
+          },
+          {
+            "content": "1,50,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "Gross Income"
+          },
+          {
+            "content": "Monthly"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Credit Card"
+          },
+          {
+            "content": "30/11/2021"
+          },
+          {
+            "content": "Salaried"
+          },
+          {
+            "content": "15,00,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "Gross Income"
+          },
+          {
+            "content": "Annual"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Credit Card"
+          },
+          {
+            "content": "30/08/2021"
+          },
+          {
+            "content": "Self Employed"
+          },
+          {
+            "content": "2,00,000",
+            "classes": "text-right"
+          },
+          {
+            "content": "Net Income"
+          },
+          {
+            "content": "Monthly"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "26%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Income in dispute"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

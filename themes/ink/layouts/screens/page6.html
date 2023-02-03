@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "EMPLOYMENT INFORMATION") }}
+            {{ partial "spacer" (dict "space" "20") }}
+            {{ partial "table-title" (dict "tableTitle" "CONSUMER" "className" "medium") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.employeeInfo_consumer "footerTableColspan" "6") }}
+        </td>
+    </tr>
+</table>
+
+{{ end }}

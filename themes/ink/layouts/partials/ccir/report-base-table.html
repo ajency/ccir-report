@@ -14,7 +14,7 @@
                 {{if .mainTableHead}}
                 <thead>
                     {{range .mainTableHead}}
-                        <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{.heading}}</th>
+                        <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
                     {{end}}
                 </thead>
             {{end}}
