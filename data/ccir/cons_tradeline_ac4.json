@@ -1,0 +1,471 @@
+[
+  {
+    "account_no": 4,
+    "active": false,
+    "DATE_OPENED": "02/03/2018",
+    "date_closed": "30/09/2021",
+    "DATE_REPORTED_and_CERTIFIED": "30/11/2021",
+    "payment_start_date": "20/03/2018",
+    "payment_end_date": "19/01/2021",
+    "late_payment_date": "19/01/2021",
+    "colgroup": ["20%", "40%"],
+    "account_info": [
+      {
+        "heading": "ACCOUNT INFORMATION",
+        "row": [
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "ACCOUNT TYPE"
+                },
+                "content": {
+                  "title": "PROPERTY LOAN",
+                  "classes": "font-20-bold"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "ACCOUNT NUMBER"
+                },
+                "content": {
+                  "title": "Not Disclosed"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "MEMBER NAME"
+                },
+                "content": {
+                  "title": "Not Disclosed"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "OWNERSHIP"
+                },
+                "content": {
+                  "title": "Individual"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "AMOUNTS",
+        "colgroup": ["", "", "28%"],
+        "row": [
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "SANCTIONED"
+                },
+                "content": {
+                  "title": "₹ 2,830,632"
+                }
+              },
+              {
+                "heading": {
+                  "title": "Payment FreqUENCY"
+                },
+                "content": {
+                  "title": "Monthly"
+                }
+              },
+              {
+                "heading": {
+                  "title": "INTEREST RATE"
+                },
+                "content": {
+                  "title": "9%"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "CURRENT BALANCE"
+                },
+                "content": {
+                  "title": "₹ 0"
+                }
+              },
+              {
+                "heading": {
+                  "title": "Repayment tenure"
+                },
+                "content": {
+                  "title": "240 M"
+                }
+              },
+              {
+                "heading": {
+                  "title": "EMI"
+                },
+                "content": {
+                  "title": "₹ 27,787"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "OVERDUE"
+                },
+                "content": {
+                  "title": "₹ 0"
+                }
+              },
+              {
+                "heading": {
+                  "title": "COLLATERAL VALUE"
+                },
+                "content": {
+                  "title": "4,00,000"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "ACTUAL PAYMENT"
+                },
+                "content": {
+                  "title": "-"
+                }
+              },
+              {
+                "heading": {
+                  "title": "COLLATERAL TYPE"
+                },
+                "content": {
+                  "title": "Property"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "STATUS",
+        "row": [
+          {
+            "td": [
+              {
+                "colspan": 2,
+                "heading": {
+                  "title": "LATE PAYMENTS (36 months)"
+                },
+                "content": {
+                  "late_payments": [
+                    {
+                      "status": "blue",
+                      "bucket": "1+",
+                      "instance": 6
+                    },
+                    {
+                      "status": "yellow",
+                      "bucket": "30+",
+                      "instance": 5
+                    },
+                    {
+                      "status": "orange",
+                      "bucket": "60+",
+                      "instance": 0
+                    },
+                    {
+                      "status": "red",
+                      "bucket": "90+",
+                      "instance": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "credit facility status"
+                },
+                "content": {
+                  "title": "-"
+                }
+              },
+              {
+                "heading": {
+                  "title": "Written off (total AMOUNT)"
+                },
+                "content": {
+                  "title": "-"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "SUIT FILED/WILLFUL DEFAULT"
+                },
+                "content": {
+                  "title": "-"
+                }
+              },
+              {
+                "heading": {
+                  "title": "Written off (principle AMOUNT)"
+                },
+                "content": {
+                  "title": "-"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": ""
+                },
+                "content": {
+                  "title": ""
+                }
+              },
+              {
+                "heading": {
+                  "title": "SETTLEMENT AMOUNT"
+                },
+                "content": {
+                  "title": "-"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "account_days": [
+      {
+        "td": [
+          {
+            "record": "2018",
+            "classes": "title-blue"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          }
+        ]
+      },
+      {
+        "td": [
+          {
+            "record": "2019",
+            "classes": "title-blue"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          }
+        ]
+      },
+      {
+        "td": [
+          {
+            "record": "2020",
+            "classes": "title-blue"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "60"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          }
+        ]
+      },
+      {
+        "td": [
+          {
+            "record": "2021",
+            "classes": "title-blue"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "30"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          },
+          {
+            "record": "-"
+          }
+        ]
+      }
+    ],
+    "account_footer":[
+      {
+        "colgroup":[
+          "25%"
+        ],
+        "headings":[
+          {
+            "title":"INFORMATION UNDER DISPUTE"
+          },
+          {
+            "title":"DISPUTE DATE"
+          }
+        ],
+        "body":[
+          {
+            "content": "Ownership Indicator in dispute"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]
