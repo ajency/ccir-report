@@ -1,0 +1,432 @@
+[
+  {
+    "account_no": 7,
+    "active": false,
+    "DATE_OPENED": "01/05/2020",
+    "date_closed": "-",
+    "DATE_REPORTED_and_CERTIFIED": "01/03/2022",
+    "payment_start_date": "12/01/20",
+    "payment_end_date": "12/12/22",
+    "late_payment_date": "08/12/22",
+    "colgroup": ["28%", "35%"],
+    "account_info": [
+      {
+        "heading": "ACCOUNT INFORMATION",
+        "colgroup": ["58%"],
+        "row": [
+          {
+            "td": [
+              {
+                "colspan": 2,
+                "heading": {
+                  "title": "ACCOUNT TYPE"
+                },
+                "content": {
+                  "title": "JLG INDIVIDUAL",
+                  "classes": "font-20-bold"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "MEMBER NAME"
+                },
+                "content": {
+                  "title": "Not Disclosed"
+                }
+              },
+              {
+                "heading": {
+                  "title": "BRANCH ID"
+                },
+                "content": {
+                  "title": "BI10322"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "Account Number"
+                },
+                "content": {
+                  "title": "Not Disclosed"
+                }
+              },
+              {
+                "heading": {
+                  "title": "KENDRA ID"
+                },
+                "content": {
+                  "title": "K129329"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "OWNERSHIP INDICATOR"
+                },
+                "content": {
+                  "title": "Gaurantor"
+                }
+              },
+              {
+                "heading": {
+                  "title": "LOAN PURPOSE"
+                },
+                "content": {
+                  "title": "Gold Loan"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "AMOUNTS",
+        "colgroup": ["33%", "42%", "25%"],
+        "row": [
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "CREDIT LIMIT"
+                },
+                "content": {
+                  "title": "₹ 70,867"
+                }
+              },
+              {
+                "heading": {
+                  "title": "LAST PAYMENT"
+                },
+                "content": {
+                  "title": "₹ 1,472"
+                }
+              },
+              {
+                "heading": {
+                  "title": "EMI"
+                },
+                "content": {
+                  "title": "₹ 1,100"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "DISBURSEd"
+                },
+                "content": {
+                  "title": "₹ 44,057"
+                }
+              },
+              {
+                "heading": {
+                  "title": "actual payment"
+                },
+                "content": {
+                  "title": "₹ 1,472"
+                }
+              },
+              {
+                "heading": {
+                  "title": "TENURE"
+                },
+                "content": {
+                  "title": "4 Years"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "current balance"
+                },
+                "content": {
+                  "title": "₹ 48,088"
+                }
+              },
+              {
+                "heading": {
+                  "title": "REPAYMENT FREQUENCY"
+                },
+                "content": {
+                  "title": "Monthly"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "OVERDUE"
+                },
+                "content": {
+                  "title": "₹ 615"
+                }
+              },
+              {
+                "heading": {
+                  "title": "NO. OF INSTALLMENTS"
+                },
+                "content": {
+                  "title": "48"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "STATUS",
+        "row": [
+          {
+            "td": [
+              {
+                "colspan": 2,
+                "colgroup": ["54%"],
+                "heading": {
+                  "title": "LATE PAYMENTS (36 months)"
+                },
+                "content": {
+                  "late_payments": [
+                    {
+                      "status": "blue",
+                      "bucket": "1+",
+                      "instance": 11
+                    },
+                    {
+                      "status": "yellow",
+                      "bucket": "30+",
+                      "instance": 18
+                    },
+                    {
+                      "status": "orange",
+                      "bucket": "60+",
+                      "instance": 15
+                    },
+                    {
+                      "status": "red",
+                      "bucket": "90+",
+                      "instance": 11
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "ACCOUNT STATUS"
+                },
+                "content": {
+                  "title": "Written-Off"
+                }
+              },
+              {
+                "heading": {
+                  "title": "WRITTEN-OFF DATE"
+                },
+                "content": {
+                  "title": "05/06/2015"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "heading": {
+                  "title": "WRITTEN-OFF (TOTAL AMT)"
+                },
+                "content": {
+                  "title": "₹ 7,678"
+                }
+              },
+              {
+                "heading": {
+                  "title": "WRITTEN-OFF (REASON)"
+                },
+                "content": {
+                  "title": "-"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "account_days": [
+      {
+        "td": [
+          {
+            "record": "2020",
+            "classes": "title-blue"
+          },
+          {
+            "record": "6"
+          },
+          {
+            "record": "8"
+          },
+          {
+            "record": "12"
+          },
+          {
+            "record": "4"
+          },
+          {
+            "record": "028"
+          },
+          {
+            "record": "021"
+          },
+          {
+            "record": "012"
+          },
+          {
+            "record": "099"
+          },
+          {
+            "record": "SUB"
+          },
+          {
+            "record": "099"
+          },
+          {
+            "record": "154"
+          },
+          {
+            "record": "128"
+          }
+        ]
+      },
+      {
+        "td": [
+          {
+            "record": "2021",
+            "classes": "title-blue"
+          },
+          {
+            "record": "XXX"
+          },
+          {
+            "record": "SUB"
+          },
+          {
+            "record": "XXX"
+          },
+          {
+            "record": "DBT"
+          },
+          {
+            "record": "LOS"
+          },
+          {
+            "record": "096"
+          },
+          {
+            "record": "STD"
+          },
+          {
+            "record": "XXX"
+          },
+          {
+            "record": "000"
+          },
+          {
+            "record": "000"
+          },
+          {
+            "record": "000"
+          },
+          {
+            "record": "000"
+          }
+        ]
+      },
+      {
+        "td": [
+          {
+            "record": "2022",
+            "classes": "title-blue"
+          },
+          {
+            "record": "000"
+          },
+          {
+            "record": "000"
+          },
+          {
+            "record": "000"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "15"
+          },
+          {
+            "record": "0"
+          },
+          {
+            "record": "17"
+          },
+          {
+            "record": "0"
+          }
+        ]
+      }
+    ],
+    "account_footer": [
+      {
+        "colgroup": ["25%"],
+        "headings": [
+          {
+            "title": "INFORMATION UNDER DISPUTE"
+          },
+          {
+            "title": "DISPUTE DATE"
+          }
+        ],
+        "body": [
+          {
+            "content": "Branch ID in dispute"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

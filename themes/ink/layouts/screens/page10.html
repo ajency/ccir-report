@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "ccir/table-style2" (dict "tableData" .Site.Data.ccir.borrower_details2 ) }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{partial "ccir/report-account-table" (dict "accountData" .Site.Data.ccir.cons_tradeline_ac7)}}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+                {{partial "ccir/report-account-table" (dict "accountData" .Site.Data.ccir.cons_tradeline_ac8)}}
+        </td>
+    </tr>
+</table>
+
+{{ end }}

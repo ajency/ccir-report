@@ -1,0 +1,58 @@
+[
+  {
+    "table_name": "BORROWER DETAILS",
+    "member_name": "NOT DISCLOSED",
+
+    "details": [
+      {
+        "colgroup": ["13%", "12%", "12%", "15%"],
+        "data": [
+          {
+            "NAME": "Mohana Parab"
+          },
+          {
+            "DOB": "07/12/1964"
+          },
+          {
+            "GENDER": "Female"
+          },
+          {
+            "MARITAL STATUS": "Widowed"
+          },
+          {
+            "NO. OF DEPENDENTS": "10"
+          }
+        ]
+      }
+    ],
+    "identifications": [
+      {
+        "colgroup": ["13%"],
+        "data": [
+          {
+            "PAN": "C1WPB8728E"
+          },
+          {
+            "UID": "858003311161"
+          }
+        ]
+      }
+    ],
+    "address_reported": [
+      {
+        "colgroup": ["30%", "12%", "30%"],
+        "data": [
+          {
+            "ADDRESS 1": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat,<br/>Lokhandwala, Kandivali East, Maharashtra, 400101"
+          },
+          {
+            "DATE REPORTED": "12/05/2018"
+          },
+          {
+            "ADDRESS 2": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat,<br/>Lokhandwala, Kandivali East, Maharashtra, 400101"
+          }
+        ]
+      }
+    ]
+  }
+]
