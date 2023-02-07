@@ -60,6 +60,11 @@
                                                                         {{end}}
                                                                         {{if .content.late_payments}}
                                                                             <table class="payment-status">
+                                                                                {{if .colgroup}}
+                                                                                    {{range .colgroup}}
+                                                                                        <col style="width:{{.}};">
+                                                                                    {{end}}
+                                                                                {{end}}
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td rowspan="2">

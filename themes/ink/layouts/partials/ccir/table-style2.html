@@ -1,0 +1,94 @@
+{{ if .tableData }} {{ range .tableData }}
+<table class="report-table bordered-table report-table-style4 padding-0">
+  <colgroup>
+    <col style="width: 70%" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>{{.table_name}}</th>
+      {{if .member_name}}
+        <th>
+          <span class="title-blue">MEMBER NAME</span><span class="colon">:</span
+          ><span class="font-24-bold">{{.member_name}}</span>
+        </th>
+      {{end}}
+    </tr>
+  </thead>
+  <tbody>
+    {{if .details}}
+      {{range .details}}
+      <tr>
+        <td colspan="2">
+          <table>
+            {{if .colgroup}} {{range .colgroup}}
+            <col style="width:{{.}}" />
+            {{end}} {{end}}
+            <body>
+              <tr>
+                {{range .data}} {{range $title, $content := .}}
+                <td><span class="title-blue">{{$title}}</span>{{safeHTML $content}}</td>
+                {{end}} {{end}}
+              </tr>
+            </body>
+          </table>
+        </td>
+      </tr>
+      {{end}}
+    {{end}}
+    {{if .identifications}}
+      {{range .identifications}}
+        <tr>
+          <th class="grey5 font-16-regular" colspan="2">IDENTIFICATION DETAILS</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <table>
+              {{if .colgroup}}
+                {{range .colgroup}}
+                  <col style="width:{{.}}" />
+                {{end}}
+              {{end}}
+              <body>
+                <tr>
+                  {{range .data}}
+                    {{range $title, $content := .}}
+                    <td><span class="title-blue">{{$title}}</span>{{safeHTML $content}}</td>
+                    {{end}}
+                  {{end}}
+                </tr>
+              </body>
+            </table>
+          </td>
+        </tr>
+      {{end}}
+    {{end}}
+    {{if .address_reported}}
+    {{range .address_reported}}
+      <tr>
+        <th class="grey5 font-16-regular" colspan="2">ADDRESS REPORTED</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <table>
+            {{if .colgroup}}
+              {{range .colgroup}}
+                <col style="width:{{.}}" />
+              {{end}}
+            {{end}}
+            <body>
+              <tr>
+                {{range .data}}
+                  {{range $title, $content := .}}
+                  <td><span class="title-blue">{{$title}}</span>{{safeHTML $content}}</td>
+                  {{end}}
+                {{end}}
+              </tr>
+            </body>
+          </table>
+        </td>
+      </tr>
+    {{end}}
+  {{end}}
+  </tbody>
+</table>
+{{ end }} {{ end }}

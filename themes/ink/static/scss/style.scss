@@ -2232,6 +2232,12 @@ $grey5 : #707070;
   }
 }
 
+.font-24 {
+  &-bold {
+    @include fontStyle(24px, 24px, 700);
+  }
+}
+
 .font-36 {
   &-bold {
     @include fontStyle(36px, 50px, 700);
@@ -2542,6 +2548,50 @@ $grey5 : #707070;
         .number {
           font-weight: 400;
           color: #707070;
+        }
+      }
+    }
+  }
+
+  &-style4 {
+    .title-blue {
+      color: #00A6CA;
+    }
+
+    tr {
+      th {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        background: #F6F7FC;
+        text-align: left;
+        padding: 10px 20px;
+
+        .title-blue {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+        }
+      }
+
+      td {
+        .title-blue {
+          font-size: 14px;
+          line-height: 24px;
+          font-weight: 700;
+          display: block;
+        }
+
+        table {
+          tr {
+            td {
+              padding: 15px 20px;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 24px;
+            }
+          }
         }
       }
     }
@@ -3254,6 +3304,7 @@ $grey5 : #707070;
 
     .payment-status {
       padding-top: 6px;
+
       td {
         font-weight: 600;
         font-size: 18px;

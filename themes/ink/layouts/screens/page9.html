@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+                {{partial "ccir/report-heading" (dict "heading" "MFI TRADELINE" "iconUrl" "images/static-images/mfi-tradeline-icon.png")}}
+                {{ partial "ccir/table-style2" (dict "tableData" .Site.Data.ccir.borrower_details ) }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{partial "ccir/report-account-table" (dict "accountData" .Site.Data.ccir.cons_tradeline_ac5)}}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+                {{partial "ccir/report-account-table" (dict "accountData" .Site.Data.ccir.cons_tradeline_ac6)}}
+        </td>
+    </tr>
+</table>
+
+{{ end }}
