@@ -3392,3 +3392,10 @@ $grey5 : #707070;
 .pb-0{
   padding-bottom: 0px !important;
 }
+
+.title-table table.nostripes tbody tr:nth-child(odd){
+  background-color: #fff;
+}
+.glossary-table.nostripes tr td:first-child{
+  font-weight: 600;
+}

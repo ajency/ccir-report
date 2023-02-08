@@ -1,0 +1,113 @@
+{
+    "table_head": [
+        {
+            "title": "REPORT SECTION"
+        },
+        {
+            "title": "KEY TERM / CODE"
+        },
+        {
+            "title": "DEscription"
+        }
+    ],
+    "table_body": [
+        {
+            "content": [
+                "Report name",
+                "-",
+                "Comprehensive Consumer Information Report"
+            ]
+        },
+        {
+            "content": [
+                "Consumer Details",
+                "e",
+                "Identification reported from Enquiry"
+            ]
+        },
+        {
+            "content": [
+                "Consumer Details",
+                "e",
+                "Identification reported from Consumer Bureau"
+            ]
+        },
+        {
+            "content": [
+                "Consumer Details",
+                "m",
+                "Identification reported from MFI Bureau"
+            ]
+        },
+        {
+            "content": [
+                "Identification (s)",
+                "ID Types",
+                "Income Tax ID Number (PAN)<br/>Passport Number<br/>Voter ID (V ID)<br/>Driver’s License Number (DL)<br/>Ration Card Number<br/>(RC)<br/>Universal ID Number (UID)"
+            ]
+        },
+        {
+            "content": [
+                "Telephone (s)",
+                "Telephone Types",
+                "Latest 4 Telephone details reported.<br/>Mobile phone<br/>Home Phone<br/>Office phone<br/>Not Classified"
+            ]
+        },
+        {
+            "content": [
+                "Email Contact (s)",
+                "-",
+                "Last 4 emails reported."
+            ]
+        },
+        {
+            "content": [
+                "Employment Information(s)",
+                "Occupation Codes",
+                "Latest employment details reported.<br/>Salaried<br/>Self Employed Professionals<br/>Self Employed<br/>Others"
+            ]
+        },
+        {
+            "content": [
+                "Address(es)",
+                "Address Category",
+                "Latest 4 addresses reported<br/>Permanent Address<br/>Residence Address<br/>Office Address<br/>Not Classified"
+            ]
+        },
+        {
+            "content": [
+                "Consumer Account Details",
+                "Account Information",
+                "Active: Account not closed<br/>Inactive: Closed account<br/>Date Opened: Date of first disbursement<br/>Date Closed: Date of account closure<br/>Date reported & Certified: Most recent date reported by reporting member<br/>Last Payment Date: Most recent date a payment was made on the account."
+            ]
+        },
+        {
+            "content": [
+                "Consumer Account Details",
+                "Day Past Due/Asset Classification",
+                "Start date: Beginning of the payment history<br/>End Date: End of the payment history<br/>000: Payment is made on the due date<br/>001-900: Payment is missed by number of days from the due date<br/>STD: Payments being made within 90 days<br/>SMA: Special account created for reporting Standard Accounts moving toward Sub-Standard<br/>SUB: Payments being made after 90 days<br/>DBT : The account has remained Sub-Standard for 12 months<br/>LSS : The account where loss has been identified and remains uncollectable<br/>XXX : Data not reported by Institution"
+            ]
+        },
+        {
+            "content": [
+                "Consumer Account Details",
+                "Information under dispute",
+                "Consumer has raised grievance request regarding issue in correctness of the data reported by Financial Institution"
+            ]
+        },
+        {
+            "content": [
+                "Enquiry Details",
+                "Not Disclosed",
+                "Enquiry made with other Members"
+            ]
+        },
+        {
+            "content": [
+                "Date",
+                "-",
+                "Dates are reported in the DD/MM/YYYY format"
+            ]
+        }
+    ]
+}
