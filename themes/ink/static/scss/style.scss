@@ -195,6 +195,7 @@ body {
       font-size: 20px;
       line-height: 20px;
     }
+
     &.regular {
       font-size: 24px;
       line-height: 24px;
@@ -1974,12 +1975,35 @@ tfoot {
 }
 
 .mb {
+  &-6 {
+    margin-bottom: 6px !important;
+  }
+
   &-10 {
     margin-bottom: 10px !important;
   }
 
+  &-15 {
+    margin-bottom: 15px !important;
+  }
+
+  &-20 {
+    margin-bottom: 20px !important;
+  }
+
   &-24 {
     margin-bottom: 24px !important;
+  }
+
+  &-23 {
+    margin-bottom: 23px !important;
+  }
+
+}
+
+.mt {
+  &-6 {
+    margin-top: 6px !important;
   }
 }
 
@@ -2702,16 +2726,6 @@ $grey5 : #707070;
   }
 }
 
-.mb {
-  &-15 {
-    margin-bottom: 15px !important;
-  }
-
-  &-20 {
-    margin-bottom: 20px !important;
-  }
-}
-
 .pl {
   &-0 {
     padding-left: 0px !important;
@@ -3389,13 +3403,39 @@ $grey5 : #707070;
   }
 }
 
-.pb-0{
+.pb-0 {
   padding-bottom: 0px !important;
 }
 
-.title-table table.nostripes tbody tr:nth-child(odd){
+.title-table table.nostripes tbody tr:nth-child(odd) {
   background-color: #fff;
 }
-.glossary-table.nostripes tr td:first-child{
+
+.glossary-table.nostripes tr td:first-child {
   font-weight: 600;
+}
+
+.valign-top-table {
+
+  td,
+  th {
+    vertical-align: top !important;
+  }
+}
+
+.nextline-text {
+  display: block;
+}
+
+.fixed-width-inline-text {
+  display: inline-block;
+  text-align: left;
+  &.text-143{
+    width: 143px;
+    margin-right: 16px;
+  }
+  &.text-122{
+    width: 122px;
+    margin-right: 6px;
+  }
 }

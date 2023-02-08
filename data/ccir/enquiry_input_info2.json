@@ -1,0 +1,144 @@
+[
+  {
+    "mainTableClasses": "valign-top-table",
+    "footerTableClasses": "",
+    "colgroups":[
+      "7.4%",
+      "14.5%",
+      "",
+      "9.9%",
+      "8.5%",
+      "23%",
+      "19%"
+    ],
+    "mainTableHead": [
+      {
+        "heading": "SR. NO"
+      },
+      {
+        "heading": "CONSUMER NAME<br/>& RELATIONSHIP"
+      },
+      {
+        "heading": "ADDRESS"
+      },
+      {
+        "heading": "DOB"
+      },
+      {
+        "heading": "GENDER"
+      },
+      {
+        "heading": "TELEPHONE NO.  (TYPE)"
+      },
+      {
+        "heading": "ID NO. (TYPE)"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "1",
+            "classes": "text-center"
+          },
+          {
+            "content": "Mohana Parab<br/><span class='grey5 font-16-regular'>(Self)</span>"
+          },
+          {
+            "content": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat, Lokhandwala, Kandivali East, Mumbai, Maharashtra - 400389<br/><span class='grey5 font-16-regular mt-6 nextline-text'>(Residential Address)</span>"
+          },
+          {
+            "content": "14/06/1943"
+          },
+          {
+            "content": "Female"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(022) 2536478 </span><span class='grey5 font-16-regular'>(Home Phone)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Not Classified)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-143'>(022) 2536478 </span><span class='grey5 font-16-regular'>(Office Phone)</span>"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>ALBPR1035C</span> <span class='grey5 font-16-regular'>(PAN)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>34EWR9900</span> <span class='grey5 font-16-regular'>(DL)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-122'>ZI821555LP</span> <span class='grey5 font-16-regular'>(V ID)</span></span>"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "2",
+            "classes": "text-center"
+          },
+          {
+            "content": "Ramesh Parab<br/><span class='grey5 font-16-regular'>(Spouse)</span>"
+          },
+          {
+            "content": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat, Lokhandwala, Kandivali East, Mumbai, Maharashtra - 400389<br/><span class='grey5 font-16-regular mt-6 nextline-text mb-23'>(Residential Address)</span>Mahindra City, Capgemini, Chennai, Tamil Nadu, India - 603002<br/><span class='grey5 font-16-regular mt-6 nextline-text'>(Office Address)</span>"
+          },
+          {
+            "content": "14/06/1943"
+          },
+          {
+            "content": "Male"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Not Classified)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(022) 2536478 </span><span class='grey5 font-16-regular'>(Not Classified)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Not Classified)</span>"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>ALBPR1035C</span> <span class='grey5 font-16-regular'>(PAN)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>34EWR9900</span> <span class='grey5 font-16-regular'>(DL)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-122'>ZI821555LP</span> <span class='grey5 font-16-regular'>(V ID)</span></span>"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "3",
+            "classes": "text-center"
+          },
+          {
+            "content": "Aman Parab<br/><span class='grey5 font-16-regular'>(Unmarried-Child 1)</span>"
+          },
+          {
+            "content": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat, Lokhandwala, Kandivali East, Mumbai, Maharashtra - 400389<br/><span class='grey5 font-16-regular mt-6 nextline-text'>(Residential Address)</span>"
+          },
+          {
+            "content": "14/06/1943"
+          },
+          {
+            "content": "Male"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(022) 2536478 </span><span class='grey5 font-16-regular'>(Not Classified)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span>"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>ALBPR1035C</span> <span class='grey5 font-16-regular'>(PAN)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>34EWR9900</span> <span class='grey5 font-16-regular'>(DL)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-122'>ZI821555LP</span> <span class='grey5 font-16-regular'>(V ID)</span></span>"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "4",
+            "classes": "text-center"
+          },
+          {
+            "content": "Prachi Parab<br/><span class='grey5 font-16-regular'>(Unmarried-Child 2)</span>"
+          },
+          {
+            "content": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat, Lokhandwala, Kandivali East, Mumbai, Maharashtra - 400389<br/><span class='grey5 font-16-regular mt-6 nextline-text'>(Residential Address)</span>"
+          },
+          {
+            "content": "14/06/1943"
+          },
+          {
+            "content": "Female"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(022) 2536478 </span><span class='grey5 font-16-regular'>(Office Phone)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-143'>(+91) 9716549822 </span><span class='grey5 font-16-regular'>(Mobile Phone)</span></span>"
+          },
+          {
+            "content": "<span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>ALBPR1035C</span> <span class='grey5 font-16-regular'>(PAN)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>34EWR9900</span> <span class='grey5 font-16-regular'>(DL)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>ZI821555LP</span> <span class='grey5 font-16-regular mb-20'>(V ID)</span></span><span class='nextline-text mb-20'><span class='fixed-width-inline-text text-122'>123474658493</span> <span class='grey5 font-16-regular'>(Passport)</span></span><span class='nextline-text'><span class='fixed-width-inline-text text-122'>18GHF75839</span> <span class='grey5 font-16-regular'>(RC)</span></span>"
+          }
+        ]
+      }
+    ]
+  }
+]
