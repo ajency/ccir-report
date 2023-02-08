@@ -1,7 +1,8 @@
 {
     "table_head": [
         {
-            "title": "Disclaimer"
+            "title": "Disclaimer",
+            "classes": "font-18-bold"
         }
     ],
     "table_body": [

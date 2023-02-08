@@ -23,7 +23,7 @@
                             {{ end }}
                         {{ else }}
                             {{ range .tableHead }}
-                                <th>{{ .title }}{{ if .info }} {{partial "info-icon" (dict "message" .info "className" "small up" )}} {{ end }}</th>
+                                <th class="{{if .classes}}{{.classes}}{{end}}">{{ .title }}{{ if .info }} {{partial "info-icon" (dict "message" .info "className" "small up" )}} {{ end }}</th>
                             {{ end }}
                         {{ end }}
                     </tr>
