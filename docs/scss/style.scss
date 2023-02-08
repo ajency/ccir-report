@@ -2198,9 +2198,13 @@ body {
 //colors
 
 $grey5 : #707070;
+$grey6: #ACACAC;
 
 .grey5 {
   color: $grey5 !important;
+}
+.grey6 {
+  color: $grey6 !important;
 }
 
 //typography
@@ -3438,4 +3442,8 @@ $grey5 : #707070;
     width: 122px;
     margin-right: 6px;
   }
+}
+
+.title-table table.glossary-table tbody tr td{
+  font-size: 18px;
 }
