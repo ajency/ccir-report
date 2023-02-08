@@ -1,0 +1,889 @@
+[
+  {
+    "mainTableClasses": "valign-top-table body-td-p15 empty-th-parent",
+    "footerTableClasses": "",
+    "colgroups":[
+      "11%",
+      "8.7%",
+      "10%",
+      "5.9%",
+      "6%",
+      "6%",
+      "6%",
+      "",
+      "7%",
+      "9%",
+      "5.5%",
+      "5.5%",
+      "4.8%"
+    ],
+    "mainTopHead":[
+      {
+        "classes": "empty-th"
+      },
+      {
+        "classes": "empty-th"
+      },
+      {
+        "classes": "empty-th"
+      },
+      {
+        "heading": "TOTAL ACCOUNt",
+        "classes": "td-bg-light-blue dark text-center border-left curved-top-left",
+        "colspan": 9
+      },
+      {
+        "heading": "LIVE ACCOUNT",
+        "classes": "td-bg-light-blue dark text-center border-right",
+        "colspan": 3
+      }
+    ],
+    "mainTableHead": [
+      {
+        "heading": "NAME & RELATIONSHIP",
+        "classes": "text-center curved-top-left font-16-bold",
+        "rowspan": 2
+      },
+      {
+        "heading": "segment",
+        "classes": "text-center font-16-bold",
+        "rowspan": 2
+      },
+      {
+        "heading": "PRODUCT<br/>CATEGORY",
+        "classes": "text-center font-16-bold",
+        "rowspan": 2
+      },
+      {
+        "heading": "TOTAL<br/>ACC",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "30+<br/>EVER",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "90+<br/>EVER",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "30+<br/>IN 6M",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "90+<br/>IN 12M",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "WRITTEN OFF",
+        "classes": "text-center font-16-bold",
+        "colspan": "2"
+      },
+      {
+        "heading": "<span class='vertical-heading'>RESTRUCTURED<br/>ACCOUNT</span>",
+        "classes": "text-center font-16-bold vertical-heading-parent"
+      },
+      {
+        "heading": "<span class='vertical-heading'>SETTLEMENT<br/>ACCOUNT</span>",
+        "classes": "text-center font-16-bold vertical-heading-parent"
+      },
+      {
+        "heading": "LIVE<br/>ACC",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "30+<br/>IN 6m",
+        "classes": "text-center font-16-bold"
+      },
+      {
+        "heading": "90+<br/>IN 12M",
+        "classes": "text-center font-16-bold"
+      }
+    ],
+    "mainSubHead":[
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10 border-left-none"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>ACC (#)</span>",
+        "classes": "text-center border-top pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>AMT (₹)</span>",
+        "classes": "text-center border-top pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      },
+      {
+        "heading": "<span class='grey5 font-14-regular'>#</span>",
+        "classes": "text-center pt-10 pb-10"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "<span class='fw-regular'>Mohana Parab</span><br/><span class='grey5 font-18-book mt-4 nextline-text'>(Self)</span>",
+            "classes": "text-center",
+            "rowspan": 4
+          },
+          {
+            "content": "Consumer",
+            "classes": "text-center",
+            "rowspan": 3
+          },
+          {
+            "content": "Secured",
+            "classes": "text-center"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Unsecured (CC/OD)",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "MFI",
+            "classes": "text-center border-left-none valign-middle"
+          },
+          {
+            "content": "Unsecured",
+            "classes": "text-center valign-middle"
+          },
+          {
+            "content": "NO INFORMATION AVAILABLE",
+            "classes": "text-center font-22-22-bold valign-middle",
+            "colspan": 9
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='fw-regular'>Ramesh Parab</span><br/><span class='grey5 font-18-book mt-4 nextline-text'>(Spouse)</span>",
+            "classes": "text-center",
+            "rowspan": 4
+          },
+          {
+            "content": "Consumer",
+            "classes": "text-center",
+            "rowspan": 3
+          },
+          {
+            "content": "Secured",
+            "classes": "text-center"
+          },
+          {
+            "content": "NO INFORMATION AVAILABLE",
+            "classes": "text-center font-22-22-bold valign-middle",
+            "colspan": 9,
+            "rowspan": 3
+          },
+          {
+            "classes": "text-center fw-regular",
+            "rowspan": 2
+          },
+          {
+            "classes": "text-center fw-regular",
+            "rowspan": 2
+          },
+          {
+            "classes": "text-center fw-regular",
+            "rowspan": 2
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center border-left-none border-right"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Unsecured (CC/OD)",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "classes": "text-center"
+          },
+          {
+            "classes": "text-center"
+          },
+          {
+            "classes": "text-center"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "MFI",
+            "classes": "text-center border-left-none valign-middle"
+          },
+          {
+            "content": "Unsecured",
+            "classes": "text-center valign-middle"
+          },
+          {
+            "content": "NO INFORMATION AVAILABLE",
+            "classes": "text-center font-22-22-bold valign-middle",
+            "colspan": 9
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='fw-regular'>Aman Parab</span><br/><span class='grey5 font-18-book mt-4 nextline-text'>(Unmarried-Child 1)</span>",
+            "classes": "text-center",
+            "rowspan": 4
+          },
+          {
+            "content": "Consumer",
+            "classes": "text-center",
+            "rowspan": 3
+          },
+          {
+            "content": "Secured",
+            "classes": "text-center"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Unsecured (CC/OD)",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "MFI",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          },
+          {
+            "content": "<span class='grey6'>-</span>",
+            "classes": "text-center"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='fw-regular'>Prachi Parab</span><br/><span class='grey5 font-18-book mt-4 nextline-text'>(Unmarried-Child 2)</span>",
+            "classes": "text-center",
+            "rowspan": 4
+          },
+          {
+            "content": "Consumer",
+            "classes": "text-center",
+            "rowspan": 3
+          },
+          {
+            "content": "Secured",
+            "classes": "text-center"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "UUnsecured (EMI)",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Unsecured (CC/OD)",
+            "classes": "text-center border-left-none"
+          },
+          {
+            "content": "3",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "10,09,890",
+            "classes": "text-right fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "2",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          },
+          {
+            "content": "1",
+            "classes": "text-center fw-regular"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "MFI",
+            "classes": "text-center border-left-none valign-middle"
+          },
+          {
+            "content": "Unsecured",
+            "classes": "text-center valign-middle"
+          },
+          {
+            "content": "NO INFORMATION AVAILABLE",
+            "classes": "text-center font-22-22-bold valign-middle",
+            "colspan": 9
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          },
+          {
+            "classes": "text-center fw-regular valign-middle"
+          }
+        ]
+      }
+    ]
+  }
+]

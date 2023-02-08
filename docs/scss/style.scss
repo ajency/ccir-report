@@ -725,13 +725,26 @@ body {
   }
 
   .border-bottom {
-    border-bottom: 1px solid #acacac;
+    border-bottom: 1px solid #acacac !important;
+  }
+
+  .border-top {
+    border-top: 1px solid #acacac !important;
+  }
+
+  .border-left {
+    border-left: 1px solid #acacac !important;
   }
 
   .border-right {
+    border-right: 1px solid #acacac !important;
     &:not(:last-child) {
-      border-right: 1px solid #acacac;
+      border-right: 1px solid #acacac !important;
     }
+  }
+
+  .curved-top-left {
+    border-top-left-radius: 7px !important;
   }
 
   .regional-details-table {
@@ -2215,6 +2228,7 @@ body {
 
 $grey5 : #707070;
 $grey6: #ACACAC;
+$dark: #2C2C2C;
 
 .grey5 {
   color: $grey5 !important;
@@ -2222,6 +2236,10 @@ $grey6: #ACACAC;
 
 .grey6 {
   color: $grey6 !important;
+}
+
+.dark {
+  color: $dark !important;
 }
 
 //typography
@@ -2290,6 +2308,12 @@ $grey6: #ACACAC;
 .font-22 {
   &-bold {
     @include fontStyle(22px, 44px, 700);
+  }
+}
+
+.font-22-22 {
+  &-bold {
+    @include fontStyle(22px, 22px, 700);
   }
 }
 
@@ -3513,6 +3537,16 @@ $grey6: #ACACAC;
     border-top: none !important;
     padding-top: 0px !important;
   }
+  .pt{
+    &-10{
+      padding-top: 10px !important;
+    }
+  }
+  .pb{
+    &-10{
+      padding-bottom: 10px !important;
+    }
+  }
 }
 
 .br {
@@ -3523,7 +3557,7 @@ $grey6: #ACACAC;
 
 .body-td-p15 {
   tr {
-    td {
+    td, th {
       padding: 15px !important;
     }
 
@@ -3561,6 +3595,50 @@ $grey6: #ACACAC;
   }
 }
 
-.td-bg-light-blue{
+.td-bg-light-blue {
   background: #F6F7FC !important;
+}
+
+.empty-th {
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.empty-th-parent {
+  border-left: none !important;
+  border-right: none !important;
+  tr{
+    td, th{
+      &:first-child{
+        border-left: 1px solid #ACACAC !important;
+        &.empty-th, &.border-left-none{
+          border-left: none !important;
+        }
+      }
+      &:last-child{
+        border-right: 1px solid #ACACAC !important;
+        &.empty-th, &.border-left-none{
+          border-right: none !important;
+        }
+        &.border-right {
+          border-right: 1px solid #acacac !important;
+        }
+      }
+    }
+  }
+}
+
+.border-left-none{
+  border-left: none !important;
+}
+
+.pt{
+  &-10{
+    padding-top: 10px !important;
+  }
+}
+.pb{
+  &-10{
+    padding-bottom: 10px !important;
+  }
 }

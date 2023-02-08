@@ -11,19 +11,26 @@
                         {{end}}
                     </colgroup>
                 {{end}}
-                {{if or .mainTableHead .mainSubHead}}
+                {{if or .mainTableHead .mainSubHead .mainTopHead}}
                 <thead>
+                    {{if .mainTopHead}}
+                        <tr class="main-top-head">
+                            {{range .mainTopHead}}
+                                <th {{if .rowspan}}rowspan="{{.rowspan}}"{{end}} {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
+                            {{end}}
+                        </tr>
+                    {{end}}
                     {{if .mainTableHead}}
                         <tr class="{{if.mainSubHead}}main-sub-head-top{{end}}">
                             {{range .mainTableHead}}
-                            <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
-                    {{end}}
+                                <th {{if .rowspan}}rowspan="{{.rowspan}}"{{end}} {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
+                            {{end}}
                         </tr>
                     {{end}}
                     {{if .mainSubHead}}
                         <tr class="main-sub-head">
                             {{range .mainSubHead}}
-                                <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
+                                <th {{if .rowspan}}rowspan="{{.rowspan}}"{{end}} {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
                             {{end}}
                         </tr>
                     {{end}}

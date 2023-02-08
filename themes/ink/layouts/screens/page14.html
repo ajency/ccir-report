@@ -4,9 +4,17 @@
     <tr>
         <td>
             {{partial "ccir/report-heading" (dict "heading" "HOUSEHOLD INFORMATION" "iconUrl" "images/static-images/household-info-icon.png")}}
-            {{ partial "table-title" (dict "tableTitle" "household Indebtedness, INCOME & CREDIT PROFILE" "className" "regular") }}
-            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.household_indebtedness "footNote" true) }}
+            {{ partial "table-title" (dict "tableTitle" "HOUSEHOLD DPD AND DEROGATORY INFORMATION" "className" "regular") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.household_dpd "footNote" true) }}
             {{ partial "ccir/foot-note" (dict "note" "Dispute reported in one or two tradelines" "notations" .Site.Data.ccir.notations_ps "spacing" "20px") }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "report-end" (dict "text" "END OF REPORT ON Mohana Parab") }}
         </td>
     </tr>
 </table>
