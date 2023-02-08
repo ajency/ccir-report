@@ -2002,8 +2002,24 @@ tfoot {
 }
 
 .mt {
+  &-4 {
+    margin-top: 4px !important;
+  }
+
   &-6 {
     margin-top: 6px !important;
+  }
+
+  &-11 {
+    margin-top: 11px !important;
+  }
+
+  &-14 {
+    margin-top: 14px !important;
+  }
+
+  &-20 {
+    margin-top: 20px !important;
   }
 }
 
@@ -2203,6 +2219,7 @@ $grey6: #ACACAC;
 .grey5 {
   color: $grey5 !important;
 }
+
 .grey6 {
   color: $grey6 !important;
 }
@@ -2222,13 +2239,19 @@ $grey6: #ACACAC;
   font-weight: 600 !important;
 }
 
+.fw-bold {
+  font-weight: 700 !important;
+}
+
 .font-14 {
   &-regular {
     @include fontStyle(14px, 14px, 600);
   }
-  &-bold{
+
+  &-bold {
     @include fontStyle(14px, 24px, 700);
-    td{
+
+    td {
       @include fontStyle(14px, 24px, 700);
     }
   }
@@ -2276,6 +2299,12 @@ $grey6: #ACACAC;
   }
 }
 
+.font-32 {
+  &-bold {
+    @include fontStyle(32px, 32px, 700);
+  }
+}
+
 .font-36 {
   &-bold {
     @include fontStyle(36px, 50px, 700);
@@ -2291,6 +2320,10 @@ $grey6: #ACACAC;
 .valign {
   &-top {
     vertical-align: top;
+  }
+
+  &-middle {
+    vertical-align: middle;
   }
 
   &-bottom {
@@ -2918,6 +2951,7 @@ $grey6: #ACACAC;
       }
 
       &.combined-row {
+        background-color: red;
 
         td,
         th {
@@ -3302,7 +3336,8 @@ $grey6: #ACACAC;
           font-weight: 600;
           font-size: 16px;
           line-height: 24px;
-          &.title-blue{
+
+          &.title-blue {
             font-weight: 700;
           }
         }
@@ -3434,6 +3469,12 @@ $grey6: #ACACAC;
   th {
     vertical-align: top !important;
   }
+
+  .valign {
+    &-middle {
+      vertical-align: middle !important;
+    }
+  }
 }
 
 .nextline-text {
@@ -3443,16 +3484,81 @@ $grey6: #ACACAC;
 .fixed-width-inline-text {
   display: inline-block;
   text-align: left;
-  &.text-143{
+
+  &.text-143 {
     width: 143px;
     margin-right: 16px;
   }
-  &.text-122{
+
+  &.text-122 {
     width: 122px;
     margin-right: 6px;
   }
+
+  &.text-68per {
+    width: 68%;
+  }
 }
 
-.title-table table.glossary-table tbody tr td{
+.title-table table.glossary-table tbody tr td {
   font-size: 18px;
+}
+
+.main-sub-head-top {
+  th {
+    padding-bottom: 10px !important;
+  }
+}
+
+.main-sub-head {
+  th {
+    border-top: none !important;
+    padding-top: 0px !important;
+  }
+}
+
+.br {
+  &-1 {
+    border-right: 1px solid #acacac !important;
+  }
+}
+
+.body-td-p15 {
+  tr {
+    td {
+      padding: 15px !important;
+    }
+
+    .emi-ratio-section {
+      padding: 12px !important;
+    }
+  }
+}
+
+.emi-ratio-section {
+  padding: 12px !important;
+  position: relative;
+
+  .bg-light-blue {
+    background: #F6F7FC;
+    padding: 10px;
+    display: block;
+    height: calc(100% - 24px);
+    width: calc(100% - 24px);
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+    table {
+      height: 100%;
+
+      tr {
+        td {
+          border: none;
+          vertical-align: middle !important;
+          text-align: center;
+        }
+      }
+    }
+  }
 }

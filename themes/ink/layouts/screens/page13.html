@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{partial "ccir/report-heading" (dict "heading" "HOUSEHOLD INFORMATION" "iconUrl" "images/static-images/household-info-icon.png")}}
+            {{ partial "table-title" (dict "tableTitle" "household Indebtedness, INCOME & CREDIT PROFILE" "className" "regular") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.household_indebtedness) }}
+        </td>
+    </tr>
+</table>
+
+{{ end }}

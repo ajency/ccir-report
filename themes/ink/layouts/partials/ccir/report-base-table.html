@@ -11,10 +11,21 @@
                         {{end}}
                     </colgroup>
                 {{end}}
-                {{if .mainTableHead}}
+                {{if or .mainTableHead .mainSubHead}}
                 <thead>
-                    {{range .mainTableHead}}
-                        <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
+                    {{if .mainTableHead}}
+                        <tr class="{{if.mainSubHead}}main-sub-head-top{{end}}">
+                            {{range .mainTableHead}}
+                            <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
+                    {{end}}
+                        </tr>
+                    {{end}}
+                    {{if .mainSubHead}}
+                        <tr class="main-sub-head">
+                            {{range .mainSubHead}}
+                                <th {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .width}}width="{{.width}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .heading}}</th>
+                            {{end}}
+                        </tr>
                     {{end}}
                 </thead>
             {{end}}
@@ -29,7 +40,7 @@
                                             <td>
                                                 <table>
                                                     <tr>
-                                                        {{range .data}}<td class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>{{end}}
+                                                        {{range .data}}<td {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .rowspan}}rowspan="{{.rowspan}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>{{end}}
                                                     </tr>
                                                 </table>
                                             </td>
@@ -43,7 +54,7 @@
 
                         {{range .mainTableBody}}
                             <tr>
-                                {{range .data}}<td class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>{{end}}
+                                {{range .data}}<td {{if .colspan}}colspan="{{.colspan}}"{{end}} {{if .rowspan}}rowspan="{{.rowspan}}"{{end}} class="{{if .classes}}{{.classes}}{{end}}">{{safeHTML .content}}</td>{{end}}
                             </tr>
                         {{end}}
 
