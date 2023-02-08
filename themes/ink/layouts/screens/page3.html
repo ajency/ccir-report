@@ -3,7 +3,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "CREDIT HEALTH INSIGHTS (MFI)") }}
+            {{ partial "table-title" (dict "tableTitle" "CREDIT HEALTH INSIGHTS (MFI)" "className" "regular") }}
             {{ partial "ccir/alerts-table" (dict "alertsData" .Site.Data.ccir.alerts_health_insights "footNote" true) }}
             {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
             {{ partial "spacer" (dict "space" "60") }}
