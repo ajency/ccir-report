@@ -40,7 +40,7 @@
     ],
     "address_reported": [
       {
-        "colgroup": ["30%", "12%", "30%"],
+        "colgroup": ["39%", "", "39%"],
         "data": [
           {
             "ADDRESS 1": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat,<br/>Lokhandwala, Kandivali East, Maharashtra, 400101"
@@ -50,6 +50,9 @@
           },
           {
             "ADDRESS 2": "724, Akurli Ekta Co-op HSG Soc, Akulri rd, Mhada Vasahat,<br/>Lokhandwala, Kandivali East, Maharashtra, 400101"
+          },
+          {
+            "DATE REPORTED": "12/05/2018"
           }
         ]
       }

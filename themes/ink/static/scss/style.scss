@@ -2226,6 +2226,12 @@ $grey6: #ACACAC;
   &-regular {
     @include fontStyle(14px, 14px, 600);
   }
+  &-bold{
+    @include fontStyle(14px, 24px, 700);
+    td{
+      @include fontStyle(14px, 24px, 700);
+    }
+  }
 }
 
 .font-16 {
@@ -3296,6 +3302,9 @@ $grey6: #ACACAC;
           font-weight: 600;
           font-size: 16px;
           line-height: 24px;
+          &.title-blue{
+            font-weight: 700;
+          }
         }
 
         &:not(:last-child) {

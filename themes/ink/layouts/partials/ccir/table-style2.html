@@ -1,11 +1,11 @@
 {{ if .tableData }} {{ range .tableData }}
-<table class="report-table bordered-table report-table-style4 padding-0">
+<table class="report-table bordered-table report-table-style4 valign-top-table padding-0">
   <colgroup>
     <col style="width: 70%" />
   </colgroup>
   <thead>
     <tr>
-      <th>{{.table_name}}</th>
+      <th class="font-18-bold">{{.table_name}}</th>
       {{if .member_name}}
         <th>
           <span class="title-blue">MEMBER NAME</span><span class="colon">:</span
