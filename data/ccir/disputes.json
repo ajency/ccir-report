@@ -1,0 +1,86 @@
+[
+  {
+    "mainTableClasses": "no-horizontal-border",
+    "footerTableClasses": "",
+    "colgroups":[
+      "87%"
+    ],
+    "mainTableHead": [
+      {
+        "heading": "DISPUTE REMARK"
+      },
+      {
+        "heading": "DATE ENTERED"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "Customer rang on 12/12/2019 to dispute about payment history on accounts 7654/52 and 4050CD00771834. Also, disputed about date of birth.",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "12/12/2019"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Multiple Disputes in Address (PA) Segment",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "03/04/2018"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Multiple Disputes in Identification (ID) Segment",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "05/08/2018"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Telephone Extension in Dispute",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "03/04/2017"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Multiple Disputes in Email Contact (EC) Segment",
+            "classes": "fw-regular pb-0"
+          },
+          {
+            "content": "03/04/2016",
+            "classes": "pb-0"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "Telephone Extension in Dispute",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "03/04/2015"
+          }
+        ]
+      }
+    ]
+  }
+]

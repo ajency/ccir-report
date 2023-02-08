@@ -1,0 +1,196 @@
+[
+  {
+    "mainTableClasses": "no-horizontal-border",
+    "footerTableClasses": "",
+    "colgroups":[
+      "35%",
+      "",
+      "35%"
+    ],
+    "mainTableHead": [
+      {
+        "heading": "MEMBER NAME"
+      },
+      {
+        "heading": "ENQUIRY DATE"
+      },
+      {
+        "heading": "ENQUIRY PURPOSE"
+      },
+      {
+        "heading": "ENQUIRY <span class='grey5 font-16-regular'>(₹)</span>"
+      }
+    ],
+    "mainTableBody": [
+      {
+        "data": [
+          {
+            "content": "Suryoday Small Finance Bank Limited",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "09/06/2021"
+          },
+          {
+            "content": "Microfinance - Personal Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "1,39,911"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "12/12/2020"
+          },
+          {
+            "content": "Education Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "5,20,000"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "04/03/2020"
+          },
+          {
+            "content": "Microfinance - Personal Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "20,000"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "04/03/2019"
+          },
+          {
+            "content": "House Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "10,00,000"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "09/05/2018"
+          },
+          {
+            "content": "Education Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "90,000"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "12/09/2017"
+          },
+          {
+            "content": "Microfinance - Personal Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "5,000"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "16/05/2016"
+          },
+          {
+            "content": "Microfinance - Personal Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "10,000"
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "content": "NOT DISCLOSED",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "22/09/2012"
+          },
+          {
+            "content": "Car Loan",
+            "classes": "fw-regular"
+          },
+          {
+            "content": "2,00,000"
+          }
+        ]
+      }
+    ],
+    "footerTableHead": [
+      {
+        "head": [
+          {
+            "content": "INFORMATION UNDER DISPUTE",
+            "width": "48%"
+          },
+          {
+            "content": "DISPUTE DATE"
+          }
+        ]
+      }
+    ],
+    "footerTableBody": [
+      {
+        "data": [
+          {
+            "content": "Dispute(s) in Company Information (Borrower and Identifiers) segment"
+          },
+          {
+            "content": "26/02/2021"
+          }
+        ]
+      }
+    ]
+  }
+]

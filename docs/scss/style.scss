@@ -195,6 +195,10 @@ body {
       font-size: 20px;
       line-height: 20px;
     }
+    &.regular {
+      font-size: 24px;
+      line-height: 24px;
+    }
   }
 
   .id_details {
@@ -3383,4 +3387,8 @@ $grey5 : #707070;
       }
     }
   }
+}
+
+.pb-0{
+  padding-bottom: 0px !important;
 }

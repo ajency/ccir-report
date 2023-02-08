@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "ENQUIRY DETAILS (36 MTHS)" "className" "regular") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.enquiry_details "footerTableColspan" "4") }}
+            {{ partial "spacer" (dict "space" "20") }}
+        </td>
+    </tr>
+</table>
+
+<table class="no-break">
+    <tr>
+        <td>
+            {{ partial "table-title" (dict "tableTitle" "CONSUMER DISPUTE REMARKS") }}
+            {{ partial "spacer" (dict "space" "24") }}
+            {{ partial "table-title" (dict "tableTitle" "DISPUTES" "className" "regular") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.disputes "footerTableColspan" "2") }}
+        </td>
+    </tr>
+</table>
+
+{{ end }}
