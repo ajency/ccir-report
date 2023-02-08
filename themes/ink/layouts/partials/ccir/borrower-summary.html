@@ -1,7 +1,8 @@
+{{$className := .className}}
 {{if .borrower_summary}}
   {{range .borrower_summary}}
     {{if or .accounts .balences}}
-      <table class="report-table bordered-table report-table-style2 padding-0">
+      <table class="report-table bordered-table report-table-style2 padding-0 {{if $className}}{{$className}}{{end}}">
         <thead>
           <tr>
             {{if .accounts}}

@@ -3,7 +3,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "CREDITVISION<sup>®</sup> ALGORITHM(S)") }}
+            {{ partial "table-title" (dict "tableTitle" "CREDITVISION<sup>®</sup> ALGORITHM(S)" "className" "medium") }}
             {{ partial "algorithm-table" (dict "algorithm_table" .Site.Data.server_agri_no_response.algorithm_table "footNote" true ) }}
             {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
             {{ partial "spacer" (dict "space" "60") }}
@@ -14,8 +14,8 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "BORROWER SUMMARY" "oldestTrade" "24/05/98" "recentTrade" "26/07/01") }}
-            {{ partial "ccir/borrower-summary" (dict "borrower_summary" .Site.Data.ccir.borrower_summary "footNote" true ) }}
+            {{ partial "table-title" (dict "tableTitle" "BORROWER SUMMARY"  "className" "regular" "oldestTrade" "24/05/98" "recentTrade" "26/07/01") }}
+            {{ partial "ccir/borrower-summary" (dict "borrower_summary" .Site.Data.ccir.borrower_summary "footNote" true "className" "mb-20" ) }}
             {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
         </td>
     </tr>
