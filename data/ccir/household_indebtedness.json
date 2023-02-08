@@ -745,6 +745,43 @@
             "classes": "text-right fw-regular br-1"
           }
         ]
+      },
+      {
+        "data": [
+          {
+            "content": "<span class='fw-bold'>TOTAL</span>",
+            "classes": "text-center td-bg-light-blue"
+          },
+          {
+            "content": "",
+            "classes": "text-center td-bg-light-blue"
+          },
+          {
+            "content": "",
+            "classes": "text-center td-bg-light-blue"
+          },
+          {
+            "content": "",
+            "classes": "text-center td-bg-light-blue fw-regular"
+          },
+          {
+            "content": "",
+            "classes": "text-center td-bg-light-blue fw-regular"
+          },
+          {
+            "content": "1,00,000,000",
+            "classes": "text-right td-bg-light-blue fw-regular"
+          },
+          {
+            "content": "8,900",
+            "classes": "text-right td-bg-light-blue fw-regular"
+          },
+          {
+            "content": "",
+            "classes": "td-bg-light-blue",
+            "colspan": 2
+          }
+        ]
       }
     ]
   }
