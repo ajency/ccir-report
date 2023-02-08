@@ -3,7 +3,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "PERSONAL INFORMATION") }}
+            {{ partial "table-title" (dict "tableTitle" "PERSONAL INFORMATION" "className" "regular") }}
             {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.personalInfo "footerTableColspan" "4") }}
         </td>
     </tr>
@@ -12,7 +12,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "IDENTIFICATION(S)") }}
+            {{ partial "table-title" (dict "tableTitle" "IDENTIFICATION(S)" "className" "regular") }}
             {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.identification) }}
         </td>
     </tr>
@@ -24,11 +24,11 @@
             <table class="table-group-cols">
                 <tr>
                     <td class="cols-2">
-                        {{ partial "table-title" (dict "tableTitle" "TELEPHONE(S)") }}
+                        {{ partial "table-title" (dict "tableTitle" "TELEPHONE(S)" "className" "regular") }}
                         {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.telephones) }}
                     </td>
                     <td class="cols-2">
-                        {{ partial "table-title" (dict "tableTitle" "EMAIL(S)") }}
+                        {{ partial "table-title" (dict "tableTitle" "EMAIL(S)" "className" "regular") }}
                         {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.emails) }}
                     </td>
                 </tr>
@@ -40,7 +40,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "CONSUMER’S REPORTED ADDRESS(ES)") }}
+            {{ partial "table-title" (dict "tableTitle" "CONSUMER’S REPORTED ADDRESS(ES)" "className" "regular") }}
             {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.reportedAddresses "footerTableColspan" "5" "footNote" true) }}
             {{ partial "ccir/foot-note" (dict "notations" .Site.Data.ccir.notations_cra "spacing" "84px") }}
             {{ partial "spacer" (dict "space" "40") }}
@@ -51,7 +51,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "Insights on Demographic DETAILS") }}
+            {{ partial "table-title" (dict "tableTitle" "Insights on Demographic DETAILS" "className" "regular") }}
             {{ partial "ccir/alerts-table" (dict "alertsData" .Site.Data.ccir.alerts_demographic_details "footNote" true) }}
             {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
         </td>
