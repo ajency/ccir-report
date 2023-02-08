@@ -3,7 +3,7 @@
 <table class="no-break">
     <tr>
         <td>
-            {{ partial "table-title" (dict "tableTitle" "TRADELINE SUMMARY") }}
+            {{ partial "table-title" (dict "tableTitle" "TRADELINE SUMMARY" "className" "regular") }}
             {{ partial "ccir/tradeline-summary-table" (dict "footNote" true) }}
             {{ partial "ccir/foot-note" (dict "note" "Dispute reported in one or two tradelines" "notations" .Site.Data.ccir.notations_ps "spacing" "20px") }}
         </td>
