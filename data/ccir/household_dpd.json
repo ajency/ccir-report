@@ -81,11 +81,11 @@
       },
       {
         "heading": "<span class='vertical-heading'>RESTRUCTURED<br/>ACCOUNT</span>",
-        "classes": "text-center font-16-bold vertical-heading-parent"
+        "classes": "text-center font-16-bold vertical-heading-parent valign-bottom"
       },
       {
         "heading": "<span class='vertical-heading'>SETTLEMENT<br/>ACCOUNT</span>",
-        "classes": "text-center font-16-bold vertical-heading-parent"
+        "classes": "text-center font-16-bold vertical-heading-parent valign-bottom"
       },
       {
         "heading": "LIVE<br/>ACC",

@@ -27,10 +27,16 @@
     ],
     "identifications": [
       {
-        "colgroup": ["13%"],
+        "colgroup": ["13%", "13%", "13%"],
         "data": [
           {
             "PAN": "C1WPB8728E"
+          },
+          {
+            "UID": "858003311161"
+          },
+          {
+            "VOTER ID": "C1WPB8728E"
           },
           {
             "UID": "858003311161"

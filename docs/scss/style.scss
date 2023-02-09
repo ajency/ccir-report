@@ -3683,3 +3683,17 @@ $dark: #2C2C2C;
     border-right-color:#DDDDDD !important;
   }
 }
+
+.glossary-table{
+  tr{
+    &:not(:last-child){
+      td{
+        border-bottom: 1px solid #DDDDDD;
+      }
+    }
+  }
+}
+
+.report-table.report-base-table tr th.valign-bottom{
+  vertical-align: bottom !important;
+}

@@ -5,7 +5,8 @@
         <td>
             {{partial "ccir/report-heading" (dict "heading" "HOUSEHOLD INFORMATION" "iconUrl" "images/static-images/household-info-icon.png")}}
             {{ partial "table-title" (dict "tableTitle" "Enquiry INPUT Information (AS ENQUIRED BY MEMBER)" "className" "regular") }}
-            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.enquiry_input_info2 "footerTableColspan" "7") }}
+            {{ partial "ccir/report-base-table" (dict "tableData" .Site.Data.ccir.enquiry_input_info2 "footerTableColspan" "7" "footNote" true) }}
+            {{ partial "ccir/foot-note" (dict "note" "Dispute reported in one or two tradelines" "notations" .Site.Data.ccir.notations_eii "spacing" "20px") }}
         </td>
     </tr>
 </table>
