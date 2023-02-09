@@ -2590,6 +2590,7 @@ $dark: #2C2C2C;
 
     .count-subtitle {
       @include fontStyle(12px, 18px, 600);
+      color: $grey5;
     }
 
     .count.green-state {
@@ -2622,7 +2623,7 @@ $dark: #2C2C2C;
     }
 
     td {
-      @include fontStyle(18px, 24px, 600);
+      @include fontStyle(18px, 24px, 400);
 
       table {
         padding: 20px 0px;

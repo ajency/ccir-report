@@ -16,7 +16,7 @@
         <td>
             {{ partial "table-title" (dict "tableTitle" "BORROWER SUMMARY"  "className" "regular" "oldestTrade" "24/05/98" "recentTrade" "26/07/01") }}
             {{ partial "ccir/borrower-summary" (dict "borrower_summary" .Site.Data.ccir.borrower_summary "footNote" true "className" "mb-20" ) }}
-            {{ partial "ccir/foot-note" (dict "note" "Place for footnote for above section") }}
+            {{ partial "ccir/foot-note" (dict "note" "Dispute reported in one or two tradelines") }}
         </td>
     </tr>
 </table>

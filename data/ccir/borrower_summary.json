@@ -14,7 +14,7 @@
                     "status": "text-blue"
                 },
                 {
-                    "title": "TOTAL OVERDUE",
+                    "title": "OVERDUE",
                     "content": "2",
                     "status": "text-red"
                 }
@@ -27,7 +27,7 @@
                     "content": "1"
                 },
                 {
-                    "title": "GOOD CLOSURE",
+                    "title": "OPENED IN LAST 6 MONTHS",
                     "content": "1"
                 }
             ]
@@ -107,7 +107,7 @@
                     "status": "text-blue"
                 },
                 {
-                    "title":"IN 30 DAYS",
+                    "title":"IN 90 DAYS",
                     "content": "1"
                 },
                 {
