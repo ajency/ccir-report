@@ -19,12 +19,14 @@
             <td>
               <table>
                 <tr>
-                  {{range $title, $content:= . }}
+                  {{range .td}}
                   <td>
-                    <p class="title">{{$title}}</p>
-                    <p class="content">
-                      {{safeHTML $content}}
-                    </p>
+                    {{range $title, $content:= . }}
+                      <p class="title">{{$title}}</p>
+                      <p class="content">
+                        {{safeHTML $content}}
+                      </p>
+                    {{end}}
                   </td>
                   {{end}}
                 </tr>
