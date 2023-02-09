@@ -3647,3 +3647,38 @@ $dark: #2C2C2C;
     padding-bottom: 10px !important;
   }
 }
+
+.border-color-light{
+  border-color: #DDDDDD !important;
+}
+.border-color-dark{
+  border-color: #ACACAC !important;
+}
+
+.border-color-style1{
+  th, td{
+    border-color: #DDDDDD !important;
+  }
+  .main-top-head{
+    th{
+      border-color: #ACACAC !important;
+    }
+  }
+  .main-sub-head-top{
+    th{
+      border-top-color: #ACACAC !important;
+    }
+  }
+  .border-bottom-dark{
+    border-bottom-color:#ACACAC !important;
+  }
+  .border-top-dark{
+    border-top-color:#ACACAC !important;
+  }
+  .border-top-light{
+    border-top-color:#DDDDDD !important;
+  }
+  .border-right-light, &.empty-th-parent .border-right.border-right-light{
+    border-right-color:#DDDDDD !important;
+  }
+}
